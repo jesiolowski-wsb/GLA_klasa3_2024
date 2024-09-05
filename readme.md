@@ -10,3 +10,6 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 - co miesiąc przynajmniej jedna ocena
 - sprawdzian nie oddany to 0 punktów (czyt. trzeba będzie odrobić)
 - oceny można poprawiać
+- 3 kategorie punktów dodatkowych:
+    - dedukcja i rozumowanie algorytmiczne
+    - inicjatywa i aktywność
