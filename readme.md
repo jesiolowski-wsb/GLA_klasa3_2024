@@ -4,3 +4,9 @@ Poproszę o odpowiedzi w plikach o nazwie **nazwisko_imie.py**
 
 i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 
+# Zasady
+- na zajęciach tylko chętni
+- duży focus na przygotowanie do matury
+- co miesiąc przynajmniej jedna ocena
+- sprawdzian nie oddany to 0 punktów (czyt. trzeba będzie odrobić)
+- oceny można poprawiać
