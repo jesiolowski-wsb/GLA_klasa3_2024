@@ -10,6 +10,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 - co miesiąc przynajmniej jedna ocena (semestr kończy się w styczniu tj każdy zakończy semestr z przynajmniej 5 ocenami)
 - sprawdzian/test nie oddany to 0 punktów (czyt. trzeba będzie odrobić)
 - oceny można poprawiać
+- jedną z ocen będzie przedstawienie tematu przed klasą
 - 3 kategorie punktów dodatkowych:
     - dedukcja i rozumowanie algorytmiczne
     - inicjatywa i aktywność
