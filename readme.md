@@ -16,3 +16,23 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
     - inicjatywa i aktywność
     - [placeholder tj. to co wymyślimy :)]
   
+# Tematy do opracowania
+- pseudokod oraz Rekurencja w programowaniu
+- obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)
+- List comprehensions – zwięzły sposób tworzenia list.
+- systemy liczbowe i konwertowanie między systemami
+- sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)
+- algorytm “dziel i zwyciężaj” 
+- złożoność obliczeniowa algorytmów (notacja O-wielkości)
+- bramki logiczne
+- algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami
+- generowanie liczb pierwszych metodą sita Eratostenesa,
+- wyznaczanie miejsc zerowych funkcji metodą połowienia
+- znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania
+- obliczanie wartości wielomianu za pomocą schematu Hornera,
+- rekurencyjne tworzenia fraktali: 
+    - zbiór Cantora, 
+    - drzewo binarne, 
+    - dywan Sierpińskiego, 
+    - płatek Kocha
+- bibioteka matplotlib na przykladzie drzewa binarnego 
