@@ -42,6 +42,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 [internal] checklista na 6.09.2024
 - [ ] kontakt
 - [ ] zasady w tym roku
+- [ ] a przerwy?
 - [ ] zasady oceniania
 - [ ] zadania domowe (?)
 - [ ] github - podpiecie userów i sprawdzenie procesu PR / modyfikacji wspólnego repo
