@@ -6,7 +6,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 
 # Zasady
 - na zajęciach tylko chętni (tak, serio:) )
-- duży focus na przygotowanie do matury - szybsze tempo niż ostatnio
+- duży focus na przygotowanie do matury - szybsze tempo niż ostatnio (będziemy korzystać z arkusze.pl)
 - co miesiąc przynajmniej jedna ocena (semestr kończy się w styczniu tj każdy zakończy semestr z przynajmniej 5 ocenami)
 - sprawdzian/test nie oddany to 0 punktów (czyt. konieczność 'odrabiania')
 - oceny można poprawiać
