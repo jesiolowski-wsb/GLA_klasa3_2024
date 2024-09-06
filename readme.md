@@ -21,7 +21,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | status | Temat                                                                                                | Kto                   | kiedy |
 | --- | :----------------                                                                                       | :------:              | :----: |
 |  | pseudokod oraz Rekurencja w programowaniu                                                                  |   Kasia               | ? |
-|  | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |   x   | ? |
+|  | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |      | ? |
 |  | List comprehensions – zwięzły sposób tworzenia list.                                                       |                      | ? |
 |  | systemy liczbowe i konwertowanie między systemami                                                          |                      | ? |            
 |  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                       |   Lena                | ? |
