@@ -17,24 +17,29 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
     - [placeholder tj. to co wymyślimy :)]
   
 # Tematy do opracowania (od 5min do 20min + ćwiczenie z tematu)
-1. pseudokod oraz Rekurencja w programowaniu (Kasia)
-2. obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)
-3. List comprehensions – zwięzły sposób tworzenia list.
-4. systemy liczbowe i konwertowanie między systemami
-5. sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search) (Lena)
-6. algorytm “dziel i zwyciężaj” (Stas)
-7. złożoność obliczeniowa algorytmów (notacja O-wielkości)
-8. bramki logiczne (Karol)
-9. algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami
-10. generowanie liczb pierwszych metodą sita Eratostenesa (Kuba)
-11. wyznaczanie miejsc zerowych funkcji metodą połowienia (Witek)
-12. znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania
-13. obliczanie wartości wielomianu za pomocą schematu Hornera (Ula)
-14. rekurencyjne tworzenia fraktali: (Wiktor)
-    - zbiór Cantora, 
-    - drzewo binarne, 
-    - dywan Sierpińskiego, 
-    - płatek Kocha
+---------
+| status | Temat              | Kto | kiedy |
+| --- | :---------------- | :------: | :----: |
+|  | pseudokod oraz Rekurencja w programowaniu        |   Kasia   | ? |
+|  | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |   x   | ? |
+|  | List comprehensions – zwięzły sposób tworzenia list.        |   x   | ? |
+|  | systemy liczbowe i konwertowanie między systemami        |   x   | ? |
+|  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search) (Lena)        |   x   | ? |
+|  | algorytm “dziel i zwyciężaj” (Stas)        |   x   | ? |
+|  | złożoność obliczeniowa algorytmów (notacja O-wielkości)        |   x   | ? |
+|  | bramki logiczne (Karol)        |   x   | ? |
+|  | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami        |   x   | ? |
+|  | generowanie liczb pierwszych metodą sita Eratostenesa (Kuba)        |   x   | ? |
+|  | wyznaczanie miejsc zerowych funkcji metodą połowienia (Witek)        |   x   | ? |
+|  | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania        |   x   | ? |
+|  | obliczanie wartości wielomianu za pomocą schematu Hornera (Ula)        |   x   | ? |
+|  | rekurencyjne tworzenia fraktali: (Wiktor): zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha        |   x   | ? |
+|  | bibioteka matplotlib na przykladzie drzewa binarnego        |   x   | ? |
+
+
+
+
+14. rekurencyjne tworzenia fraktali - zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha (Wiktor)
 15. bibioteka matplotlib na przykladzie drzewa binarnego
 
   
@@ -45,7 +50,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 - [x] a przerwy?
 - [x] zasady oceniania
 - [x] zadania domowe (?)
-- [ ] github - podpiecie userów i sprawdzenie procesu PR / modyfikacji wspólnego repo
-- [ ] classroom (?)
+- [x] github - podpiecie userów i sprawdzenie procesu PR / modyfikacji wspólnego repo
+- [x] classroom (?)
 
       
