@@ -17,25 +17,25 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
     - [placeholder tj. to co wymyślimy :)]
   
 # Tematy do opracowania (od 5min do 20min + ćwiczenie z tematu)
-- pseudokod oraz Rekurencja w programowaniu
-- obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)
-- List comprehensions – zwięzły sposób tworzenia list.
-- systemy liczbowe i konwertowanie między systemami
-- sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)
-- algorytm “dziel i zwyciężaj” 
-- złożoność obliczeniowa algorytmów (notacja O-wielkości)
-- bramki logiczne
-- algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami
-- generowanie liczb pierwszych metodą sita Eratostenesa,
-- wyznaczanie miejsc zerowych funkcji metodą połowienia
-- znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania
-- obliczanie wartości wielomianu za pomocą schematu Hornera,
-- rekurencyjne tworzenia fraktali: 
+1. pseudokod oraz Rekurencja w programowaniu
+2. obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)
+3. List comprehensions – zwięzły sposób tworzenia list.
+4. systemy liczbowe i konwertowanie między systemami
+5. sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)
+6. algorytm “dziel i zwyciężaj” 
+7. złożoność obliczeniowa algorytmów (notacja O-wielkości)
+8. bramki logiczne
+9. algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami
+10. generowanie liczb pierwszych metodą sita Eratostenesa,
+11. wyznaczanie miejsc zerowych funkcji metodą połowienia
+12. znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania
+13. obliczanie wartości wielomianu za pomocą schematu Hornera,
+14. rekurencyjne tworzenia fraktali: 
     - zbiór Cantora, 
     - drzewo binarne, 
     - dywan Sierpińskiego, 
     - płatek Kocha
-- bibioteka matplotlib na przykladzie drzewa binarnego
+15. bibioteka matplotlib na przykladzie drzewa binarnego
 
   
 -------------------------------------------------------
