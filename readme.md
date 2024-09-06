@@ -36,15 +36,6 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 |  | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha          |   Wiktor              |  |
 |  | bibioteka matplotlib na przykladzie drzewa binarnego                                                       |                      |  |
 
-  
--------------------------------------------------------
-[internal] checklista na 6.09.2024
-- [x] kontakt
-- [x] zasady w tym roku
-- [x] a przerwy?
-- [x] zasady oceniania
-- [x] zadania domowe (?)
-- [x] github - podpiecie userów i sprawdzenie procesu PR / modyfikacji wspólnego repo
-- [x] classroom (?)
+
 
       
