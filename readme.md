@@ -10,13 +10,13 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 - co miesiąc przynajmniej jedna ocena (semestr kończy się w styczniu tj każdy zakończy semestr z przynajmniej 5 ocenami)
 - sprawdzian/test nie oddany to 0 punktów (czyt. konieczność 'odrabiania')
 - oceny można poprawiać
-- jedną z ocen będzie przedstawienie tematu przed klasą (tematy poniżej, czas trwania prezentacji 5-20min. Po prezentacji poprowadzenie cwiczenia z tematu)
+- jedną z ocen będzie przedstawienie tematu przed klasą (tematy poniżej, czas trwania prezentacji 5-20min)
 - 3 kategorie punktów dodatkowych:
     - dedukcja i rozumowanie algorytmiczne
     - inicjatywa i aktywność
     - [placeholder tj. to co wymyślimy :)]
   
-# Tematy do opracowania (od 5min do 45min)
+# Tematy do opracowania (od 5min do 20min + ćwiczenie z temau)
 - pseudokod oraz Rekurencja w programowaniu
 - obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)
 - List comprehensions – zwięzły sposób tworzenia list.
