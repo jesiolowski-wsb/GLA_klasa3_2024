@@ -40,11 +40,11 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
   
 -------------------------------------------------------
 [internal] checklista na 6.09.2024
-- [ ] kontakt
-- [ ] zasady w tym roku
-- [ ] a przerwy?
-- [ ] zasady oceniania
-- [ ] zadania domowe (?)
+- [x] kontakt
+- [x] zasady w tym roku
+- [x] a przerwy?
+- [x] zasady oceniania
+- [x] zadania domowe (?)
 - [ ] github - podpiecie userów i sprawdzenie procesu PR / modyfikacji wspólnego repo
 - [ ] classroom (?)
 
