@@ -8,15 +8,15 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 - na zajęciach tylko chętni (tak, serio:) )
 - duży focus na przygotowanie do matury - szybsze tempo niż ostatnio
 - co miesiąc przynajmniej jedna ocena (semestr kończy się w styczniu tj każdy zakończy semestr z przynajmniej 5 ocenami)
-- sprawdzian/test nie oddany to 0 punktów (czyt. trzeba będzie odrobić)
+- sprawdzian/test nie oddany to 0 punktów (czyt. konieczność 'odrabiania')
 - oceny można poprawiać
-- jedną z ocen będzie przedstawienie tematu przed klasą
+- jedną z ocen będzie przedstawienie tematu przed klasą (tematy poniżej, czas trwania prezentacji 5-20min. Po prezentacji poprowadzenie cwiczenia z tematu)
 - 3 kategorie punktów dodatkowych:
     - dedukcja i rozumowanie algorytmiczne
     - inicjatywa i aktywność
     - [placeholder tj. to co wymyślimy :)]
   
-# Tematy do opracowania
+# Tematy do opracowania (od 5min do 45min)
 - pseudokod oraz Rekurencja w programowaniu
 - obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)
 - List comprehensions – zwięzły sposób tworzenia list.
