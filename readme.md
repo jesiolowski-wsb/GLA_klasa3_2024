@@ -36,3 +36,13 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
     - dywan Sierpińskiego, 
     - płatek Kocha
 - bibioteka matplotlib na przykladzie drzewa binarnego
+
+  
+-------------------------------------------------------
+[internal] checklista na 6.09.2024
+- [ ] kontakt
+- [ ] zasady w tym roku
+- [ ] github - podpiecie brakujących userów
+- [ ] zasady oceniania
+- [ ] zadania domowe?
+      
