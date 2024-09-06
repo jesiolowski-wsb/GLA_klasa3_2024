@@ -26,7 +26,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 7. złożoność obliczeniowa algorytmów (notacja O-wielkości)
 8. bramki logiczne (Karol)
 9. algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami
-10. generowanie liczb pierwszych metodą sita Eratostenesa,
+10. generowanie liczb pierwszych metodą sita Eratostenesa (Kuba)
 11. wyznaczanie miejsc zerowych funkcji metodą połowienia (Witek)
 12. znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania
 13. obliczanie wartości wielomianu za pomocą schematu Hornera (Ula)
