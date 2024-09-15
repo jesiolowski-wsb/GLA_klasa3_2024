@@ -14,7 +14,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 - 3 kategorie punktów dodatkowych:
     - dedukcja i rozumowanie algorytmiczne
     - inicjatywa i aktywność
-    - [placeholder tj. to co wymyślimy :)]
+    - zadania konkursowe
   
 # Tematy do opracowania (od 5min do 20min + ćwiczenie z tematu)
 ---------
