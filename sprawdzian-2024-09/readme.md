@@ -2,7 +2,7 @@
 # Sprawdzian z programowania w Pythonie - 20.09.2024
 
 ## Zadanie 1: Symulator kalkulatora (7 punktów)
-Napisz program, który będzie działał w nieskończonej pętli (podobnie jak konsola z poprzednich lekcji). Program powinien przyjmować od użytkownika operację matematyczną w formacie `liczba1 operator liczba2` (np. `3 + 5`). Obsługuj następujące operatory: `+`, `-`, `*`, `/`. 
+Napisz program, który będzie działał w nieskończonej pętli (podobnie jak ćwiczenie z symulatorem konsoli z poprzednich lekcji). Program powinien przyjmować od użytkownika operację matematyczną w formacie `liczba1 operator liczba2` (np. `3 + 5`). Obsługuj następujące operatory: `+`, `-`, `*`, `/`. 
 
 Jeśli użytkownik wpisze `quit`, program powinien się zakończyć.
 
