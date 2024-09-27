@@ -41,6 +41,47 @@ print(is_palindrome("a to idiota"))
 
 
 
+while True:
+    dane = input('wpisz dzialanie')
+    czesci = dane.split()
+    if dane =="quit":
+        print('kalkulator zamkniety')
+        break
+    elif len(czesci)!=3:
+        print('Podałeś złe liczby')
+        break
+    elif czesci[1]=='+':
+        print(int(czesci[0])+int(czesci[2]))
+    elif czesci[1]=='-':
+        print(int(czesci[0])-int(czesci[2]))
+    elif czesci[1]=='*':
+        print(int(czesci[0])*int(czesci[2]))
+    elif czesci[1]=='/':
+        print(int(czesci[0])/int(czesci[2]))
+
+
+
+while True:
+    dane = input('wpisz dzialanie')
+    czesci = dane.split()
+    if dane =="wyjdz":
+        print('wyjscie')
+        break
+    if len(czesci)!=3:
+        print('blad')
+        break
+
+    if czesci[1]=='*':
+        print(int(czesci[0])*int(czesci[2]))
+    if czesci[1]=='/':
+        print(int(czesci[0])/int(czesci[2]))
+    if czesci[1] == '+':
+        print(int(czesci[0]) + int(czesci[2]))
+    if czesci[1] == '-':
+            print(int(czesci[0]) - int(czesci[2]))
+
+
+
 
 
 
