@@ -20,4 +20,12 @@ def rysuj_prostokat(szerokosc, wysokosc):
 
 rysuj_prostokat(11, 5)
 
-
+def is_palindrome(s):
+    s=s.replace(" ", "").lower()
+    if len(s)<=1:
+        return True
+    if s[0]== s[-1]:
+        return is_palindrome(s[1:-1])
+    else:
+        return False
+print(is_palindrome("saippuakivikauppias"))
