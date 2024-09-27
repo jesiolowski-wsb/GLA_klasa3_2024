@@ -10,3 +10,12 @@ def fizzbuzz_v2(n):
             print("Boom")
         else:
             print(liczba)
+
+
+def rysuj_prostokat(szerokosc, wysokosc):
+    for i in range(szerokosc):
+        print('#' * wysokosc)
+
+rysuj_prostokat(11, 5)
+
+
