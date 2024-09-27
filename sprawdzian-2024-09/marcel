@@ -1,0 +1,12 @@
+def fizzbuzz_v2(n):
+    for liczba in range(1, n):
+        if liczba % 3 == 0 and liczba % 5 == 0:
+            print("Fizzbuzz")
+        elif liczba % 5 == 0:
+            print("Buzz")
+        elif liczba % 3 == 0:
+            print("Fizz")
+        elif liczba % 7 == 0:
+            print("Boom")
+        else:
+            print(liczba)
