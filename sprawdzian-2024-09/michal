@@ -1,0 +1,18 @@
+zasada = 1
+while zasada== 1:
+    a=input("podaj swoje równanie")
+    if a=="quit":
+        break
+        zasada=0
+    else:
+        lista = a.split()
+        b = int(lista[0])
+        c = int(lista[2])
+        if lista[1] == "*":
+            print(b * c)
+        if lista[1] == "+":
+            print(b + c)
+        if lista[1] == "-":
+            print(b - c)
+        if lista[1] == "/":
+            print(b / c)
