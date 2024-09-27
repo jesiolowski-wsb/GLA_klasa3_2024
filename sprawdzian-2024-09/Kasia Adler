@@ -25,3 +25,38 @@ def fizzbuzz(n):
 
 n = 100
 fizzbuzz(n)
+
+
+zadanie 1
+
+#float konwertuje liczbe na zmiennoprzecinkowa, tak aby mogly tez byc liczby po przecinku np 3.14
+while True:
+    komenda = input("Wpisz działanie: ")
+
+    if komenda.lower() == "quit":
+        print("Kalkulator zaknięty")
+        break
+
+    elementy = komenda.split()
+    liczba1 = float(elementy[0])
+    operator = elementy[1]
+    liczba2 = float(elementy[2])
+
+
+    if operator == "+":
+        wynik = liczba1 + liczba2
+    elif operator == "-":
+        wynik = liczba1 - liczba2
+    elif operator == "*":
+        wynik = liczba1 * liczba2
+    elif operator == "/":
+        if liczba2 == 0:
+            wynik = "Error"
+        else:
+            wynik = liczba1 / liczba2
+
+
+
+    print(f"Twój wynik to: {wynik}")
+
+
