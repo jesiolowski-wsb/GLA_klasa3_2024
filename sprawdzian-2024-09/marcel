@@ -10,6 +10,8 @@ def fizzbuzz_v2(n):
             print("Boom")
         else:
             print(liczba)
+n=100
+fizzbuzz_v2(n)
 
 
 def rysuj_prostokat(szerokosc, wysokosc):
