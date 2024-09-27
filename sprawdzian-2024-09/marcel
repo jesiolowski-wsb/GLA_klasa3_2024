@@ -29,3 +29,21 @@ def is_palindrome(s):
     else:
         return False
 print(is_palindrome("saippuakivikauppias"))
+
+while True:
+    dane = input('dawaj liczbe sigma wiariacie')
+    czesci = dane.split()
+    if dane =="koniec elo elo":
+        print('koniec matmy na dzis bratku')
+        break
+    elif len(czesci)!=3:
+        print('ziomek cos zle wpisales')
+        break
+    elif czesci[1]=='+':
+        print(int(czesci[0])+int(czesci[2]))
+    elif czesci[1]=='-':
+        print(int(czesci[0])-int(czesci[2]))
+    elif czesci[1]=='*':
+        print(int(czesci[0])*int(czesci[2]))
+    elif czesci[1]=='/':
+        print(int(czesci[0])/int(czesci[2]))
