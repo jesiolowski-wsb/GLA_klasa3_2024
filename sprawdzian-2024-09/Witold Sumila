@@ -1,5 +1,5 @@
 def fizzbuzz(n):
-    for liczba in range(1, n + 1):
+    for liczba in range(1, n):
         if liczba % 3 == 0 and liczba % 5 == 0:
             print("FizzBuzz")
         elif liczba % 3 == 0:
@@ -41,23 +41,7 @@ print(is_palindrome("a to idiota"))
 
 
 
-while True:
-    dane = input('wpisz dzialanie')
-    czesci = dane.split()
-    if dane =="quit":
-        print('kalkulator zamkniety')
-        break
-    elif len(czesci)!=3:
-        print('Podałeś złe liczby')
-        break
-    elif czesci[1]=='+':
-        print(int(czesci[0])+int(czesci[2]))
-    elif czesci[1]=='-':
-        print(int(czesci[0])-int(czesci[2]))
-    elif czesci[1]=='*':
-        print(int(czesci[0])*int(czesci[2]))
-    elif czesci[1]=='/':
-        print(int(czesci[0])/int(czesci[2]))
+
 
 
 
