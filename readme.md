@@ -21,7 +21,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | status | Temat                                                                                                | Kto                   | kiedy |
 | --- | :----------------                                                                                       | :------:              | :----: |
 | wykonane (1) | pseudokod oraz Rekurencja w programowaniu                                                                  |   Kasia               | 20.09.2024 |
-|  | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |    Milena  |  27.09.2024 |
+| wykonane (2) | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |    Milena  |  27.09.2024 |
 |  | List comprehensions – zwięzły sposób tworzenia list.                                                       |                      |                              |
 |  | systemy liczbowe i konwertowanie między systemami                                                          |   Michał                   |                              |   
 |  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                       |   Lena                |                              |
