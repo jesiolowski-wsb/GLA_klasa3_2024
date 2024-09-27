@@ -16,3 +16,16 @@ while zasada== 1:
             print(b - c)
         if lista[1] == "/":
             print(b / c)
+def fizzbuzz(n):
+    for liczba in range(1, n + 1):
+        if liczba % 15 == 0:
+            print("FizzBuzz")
+        if liczba % 3 == 0:
+            print("Fizz")
+        if liczba % 5 == 0:
+            print("Buzz")
+        else:
+            print(liczba)
+
+n=int(input("podaj liczbe"))
+fizzbuzz(n)
