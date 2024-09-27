@@ -1,0 +1,21 @@
+def fizzbuzz(n):
+    for liczba in range(1, n + 1):
+        if liczba % 3 == 0 and liczba % 5 == 0:
+            print("FizzBuzz")
+        elif liczba % 3 == 0:
+            print("Fizz")
+        elif liczba % 5 == 0:
+            print("Buzz")
+        elif liczba % 7 ==0:
+            print("boom")
+        else:
+            print(liczba)
+
+
+
+
+def rysuj_prostokat(n,m):
+    for i in range(n):
+        print('#'*m)
+
+rysuj_prostokat(6,4)
