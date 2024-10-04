@@ -24,7 +24,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | wykonane (2) | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |    Milena  |  27.09.2024 |
 |  | List comprehensions – zwięzły sposób tworzenia list.                                                       |   Julia                   |                              |
 | wykonane (3) | systemy liczbowe i konwertowanie między systemami                                                          |   Michał                   |        4.10.2024                      |   
-|  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                       |   Lena                |                              |
+|  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                       |   Lena                |         11.10.2024               |
 |  | algorytm “dziel i zwyciężaj”                                                                               |   Staś                |                              |
 |  | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                    |                      |                              |
 |  | bramki logiczne                                                                                            |   Karol               |                              |
