@@ -18,23 +18,23 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
   
 # Tematy do opracowania (od 5min do 20min + ćwiczenie z tematu)
 ---------
-| status | Temat                                                                                                | Kto                   | kiedy |
-| --- | :----------------                                                                                       | :------:              | :----: |
-| wykonane (1) | pseudokod oraz Rekurencja w programowaniu                                                                  |   Kasia               | 20.09.2024 |
-| wykonane (2) | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |    Milena  |  27.09.2024 |
-|  | List comprehensions – zwięzły sposób tworzenia list.                                                       |   Julia                   |                              |
-| wykonane (3) | systemy liczbowe i konwertowanie między systemami                                                          |   Michał                   |        4.10.2024                      |   
-|  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                       |   Lena                |         11.10.2024               |
-|  | algorytm “dziel i zwyciężaj”                                                                               |   Staś                |                              |
-|  | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                    |                      |                              |
-|  | bramki logiczne                                                                                            |   Karol               |                              |
-|  | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                              |                      |                              |
-|  | generowanie liczb pierwszych metodą sita Eratostenesa                                                      |   Kuba                |                              |
-|  | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                      |   Witek               |                              |
-|  | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania         |           |                  |
-|  | obliczanie wartości wielomianu za pomocą schematu Hornera                                                  |   Ula                 |                              |
-|  | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha          |   Wiktor              |                              |
-|  | bibioteka matplotlib na przykladzie drzewa binarnego                                                       |                      |                                |
+| status | Temat                                                                                                | Kto                       | kiedy                             | prezentacja |
+| --- | :----------------                                                                                       | :------:                  | :----:                            | :-----:|
+| wykonane (1) | pseudokod oraz Rekurencja w programowaniu                                                      |   Kasia                   | 20.09.2024                        |
+| wykonane (2) | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)        |    Milena  |  27.09.2024 | |
+|  | List comprehensions – zwięzły sposób tworzenia list.                                                       |   Julia                   |                                   | |
+| wykonane (3) | systemy liczbowe i konwertowanie między systemami                                              |   Michał                  |        4.10.2024                  | |   
+|  | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                       |   Lena                    |        11.10.2024                 | |
+|  | algorytm “dziel i zwyciężaj”                                                                               |   Staś                    |                              | |
+|  | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                    |                           |                              | |
+|  | bramki logiczne                                                                                            |   Karol                   |                              | |
+|  | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                              |                           |                              | |
+|  | generowanie liczb pierwszych metodą sita Eratostenesa                                                      |   Kuba                    |                              | |
+|  | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                      |   Witek                   |                              | |
+|  | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania             |           |                  | |
+|  | obliczanie wartości wielomianu za pomocą schematu Hornera                                                  |   Ula                     |                              | |
+|  | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha          |   Wiktor                  |                              | |
+|  | bibioteka matplotlib na przykladzie drzewa binarnego                                                       |                           |                              | |
 
 
 
