@@ -18,7 +18,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 # Tematy do opracowania (od 5min do 20min + ćwiczenie z tematu)
 ---------
 | kolejność    | Temat                                                                                                                      | Kto                       | kiedy                            | prezentacja |
-| ---          | :----------------                                                                                                          | :------:                  | :----:                           | :-----:     |
+| :---:        | :----------------                                                                                                          | :------:                  | :----:                           | :-----:     |
 | 1 | pseudokod oraz Rekurencja w programowaniu                                                                                  |   Kasia                   | 20.09.2024                       |             |
 | 2 | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)|    Milena  |  27.09.2024     |             |
 |              | List comprehensions – zwięzły sposób tworzenia list.                                                                       |   Julia                   |        18.10.2024                |             |
