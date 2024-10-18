@@ -31,3 +31,19 @@ szerokosc = int(input("Podaj szerokosc prostokąta:" ))
 wysokosc = int(input("Podaj wysokosc prostokąta:"))
 
 rysuj_prostokat(szerokosc, wysokosc )
+
+#zad3
+def potega(podstawa , wykladnik):
+    if wykladnik == 0:
+        return 1
+    else:
+        return podstawa * potega(podstawa, wykladnik - 1)
+
+podstawa = float(input("Podaj podstawę: "))
+wykladnik = int(input("Podaj wykladnik(liczba nieujemna): "))
+
+if wykladnik <0:
+    print("wykladnik musi byc liczba nieujemną")
+else:
+    wynik = potega(podstawa, wykladnik)
+    print(f"{podstawa} do potegi {wykladnik} wynosi: {wynik}")
