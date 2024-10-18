@@ -1,11 +1,33 @@
 # Sprawdzian poprawkowy z rekurencji i podstaw algorytmów
 
-## Zadanie 1: Zliczanie samogłosek (4 punkty)
+## Zadanie 1: Zliczanie samogłosek (3 punkty)
 
 Napisz program, który w tekście poniżej zlicza liczbę wystąpień samogłosek (tj. **a, e, i, o, u**) oraz wyświetla wynik.
 
 tekst to przetestowania:
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Rozwiązanie:
+
+```python
+
+tekst = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+samogloski = "aeiou"
+
+liczba_samoglosek = 0
+
+
+for litera in tekst:
+
+    if litera.lower() in samogloski:
+
+        liczba_samoglosek += 1
+
+
+print("Liczba samogłosek:", liczba_samoglosek)
+
+```
 
 ---
 
@@ -19,12 +41,66 @@ Napisz program, który:
 > [!TIP] 
 > Przemyśl po czym można poznać czy jesteśmy na elemencie centralnym zbioru danych
 
+### Rozwiązanie:
+
+```python
+
+szerokosc = int(input("Podaj szerokość prostokąta: "))
+
+wysokosc = int(input("Podaj wysokość prostokąta: "))
+
+
+for i in range(wysokosc):
+
+    wiersz = ""
+
+    for j in range(szerokosc):
+
+        if szerokosc % 2 == 1 and j == szerokosc // 2:
+
+            wiersz += "-"
+
+        else:
+
+            wiersz += "*"
+
+    print(wiersz)
+
+```
+
 ---
 
-## Zadanie 3: Rekurencyjne potęgowanie (6 punktów)
+## Zadanie 3: Rekurencyjne potęgowanie (5 punktów)
 
 Napisz funkcję rekurencyjną `potega(podstawa, wykladnik)`, która oblicza wynik potęgowania `podstawa` do potęgi `wykladnik`. Załóż, że wykładnik jest liczbą nieujemną.
 
+### Rozwiązanie:
+
+```python
+
+def potega(podstawa, wykladnik):
+
+    if wykladnik == 0:
+
+        return 1
+
+    elif wykladnik == 1:
+
+        return podstawa
+
+    else:
+
+        return podstawa * potega(podstawa, wykladnik - 1)
+
+
+# Przykłady użycia:
+
+print(potega(2, 3))  # Powinno zwrócić 8
+
+print(potega(5, 2))  # Powinno zwrócić 25
+
+print(potega(3, 0))  # Powinno zwrócić 1
+```
 
 ---
 
@@ -72,6 +148,129 @@ sila_hasla = sprawdz_sile_hasla(wygenerowane_haslo)     # 3 (mała litera, duża
 
 print(f"Wygenerowane hasło: {wygenerowane_haslo}")
 print(f"Siła hasła (1-5): {sila_hasla}")
+```
+
+### Rozwiązanie
+
+```python
+
+import random
+
+
+def generuj_haslo(dlugosc):
+
+    znaki = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*"
+
+    haslo = ""
+
+    for _ in range(dlugosc):
+
+        haslo += random.choice(znaki)
+
+    return haslo
+
+
+def sprawdz_sile_hasla(haslo):
+
+    wynik = 0
+
+    if len(haslo) >= 8:
+
+        wynik += 1
+
+    
+    ma_mala_litere = False
+
+    ma_duza_litere = False
+
+    ma_cyfre = False
+
+    ma_znak_specjalny = False
+
+    
+    for znak in haslo:
+
+        if znak.islower():
+
+            ma_mala_litere = True
+
+        elif znak.isupper():
+
+            ma_duza_litere = True
+
+        elif znak.isdigit():
+
+            ma_cyfre = True
+
+        elif znak in "!@#$%^&*":
+
+            ma_znak_specjalny = True
+
+    
+    if ma_mala_litere:
+
+        wynik += 1
+
+    if ma_duza_litere:
+
+        wynik += 1
+
+    if ma_cyfre:
+
+        wynik += 1
+
+    if ma_znak_specjalny:
+
+        wynik += 1
+
+    
+    return wynik
+
+
+dlugosc_hasla = int(input("Podaj długość hasła: "))
+
+wygenerowane_haslo = generuj_haslo(dlugosc_hasla)
+
+sila_hasla = sprawdz_sile_hasla(wygenerowane_haslo)
+
+
+print(f"Wygenerowane hasło: {wygenerowane_haslo}")
+
+print(f"Siła hasła (1-5): {sila_hasla}")
+
+```
+
+
+```python
+
+# alternatywne rozwiązanie 
+
+def sprawdz_sile_hasla(haslo):
+
+    wynik = 0
+
+    if len(haslo) >= 8:
+
+        wynik += 1
+
+    if any(c.islower() for c in haslo):
+
+        wynik += 1
+
+    if any(c.isupper() for c in haslo):
+
+        wynik += 1
+
+    if any(c.isdigit() for c in haslo):
+
+        wynik += 1
+
+    if any(c in "!@#$%^&*" for c in haslo):
+
+        wynik += 1
+
+    return wynik
+
 ```
 
 Powodzenia!
