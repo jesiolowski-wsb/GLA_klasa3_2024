@@ -25,33 +25,6 @@ Napisz program, który:
 
 Napisz funkcję rekurencyjną `potega(podstawa, wykladnik)`, która oblicza wynik potęgowania `podstawa` do potęgi `wykladnik`. Załóż, że wykładnik jest liczbą nieujemną.
 
-[//]: # (### Rozwiązanie:)
-
-[//]: # (```python)
-
-[//]: # (def potega&#40;podstawa, wykladnik&#41;:)
-
-[//]: # (    if wykladnik == 0:)
-
-[//]: # (        return 1)
-
-[//]: # (    elif wykladnik == 1:)
-
-[//]: # (        return podstawa)
-
-[//]: # (    else:)
-
-[//]: # (        return podstawa * potega&#40;podstawa, wykladnik - 1&#41;)
-
-[//]: # ()
-[//]: # (# Przykłady użycia:)
-
-[//]: # (print&#40;potega&#40;2, 3&#41;&#41;  # Powinno zwrócić 8)
-
-[//]: # (print&#40;potega&#40;5, 2&#41;&#41;  # Powinno zwrócić 25)
-
-[//]: # (print&#40;potega&#40;3, 0&#41;&#41;  # Powinno zwrócić 1)
-[//]: # (```)
 
 ---
 
