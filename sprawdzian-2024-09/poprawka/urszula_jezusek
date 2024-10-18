@@ -12,3 +12,18 @@ tekst = """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 
 wynik = zlicz_samogloski(tekst)
 print(f'Liczba wystąpień samogłosek: {wynik}')
+
+
+
+def rysuj_prostokat(szerokosc, wysokosc):
+    for i in range(wysokosc):
+        if szerokosc % 2 == 1:
+            myslinik = '*' * (szerokosc // 2) + '-' + '*' * (szerokosc // 2)
+            print(myslinik)
+        else:
+            print('*' * szerokosc)
+szerokosc = int(input("Podaj szerokość prostokąta: "))
+wysokosc = int(input("Podaj wysokość prostokąta: "))
+
+rysuj_prostokat(szerokosc, wysokosc)
+
