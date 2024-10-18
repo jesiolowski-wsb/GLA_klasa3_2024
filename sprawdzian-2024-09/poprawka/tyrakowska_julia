@@ -17,12 +17,9 @@ print(f"Liczba wystąpień samoglosek {wynik}")
 #zadanie2
 def rysuj_prostokat(szerokosc, wysokosc):
     for i in range(wysokosc):
-        if szerokosc % 2 == 1 and  0 < i < wysokosc - 1:
-
-           srodkowy_index = szerokosc // 2
-           wiersz = ['*'] * szerokosc
-           wiersz[srodkowy_index] = '-'
-           print(''.join(wiersz))
+        if szerokosc % 2 == 1:
+            myslnik = '*' * (szerokosc//2) + '-' + '*' * (szerokosc//2)
+            print(myslnik)
         else:
             print('*' * szerokosc)
 
