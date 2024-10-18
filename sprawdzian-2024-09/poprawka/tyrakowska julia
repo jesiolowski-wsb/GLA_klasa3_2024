@@ -1,4 +1,4 @@
-#zadanie pierwsze 
+#zadanie1 
 def zlicz_samogloski(tekst):
     samogloski = 'aeiouAEIOU'
     licznik = 0
@@ -13,3 +13,21 @@ tekst = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
 wynik = zlicz_samogloski(tekst)
 print(f"Liczba wystąpień samoglosek {wynik}")
+
+#zadanie2
+def rysuj_prostokat(szerokosc, wysokosc):
+    for i in range(wysokosc):
+        if szerokosc % 2 == 1 and  0 < i < wysokosc - 1:
+
+           srodkowy_index = szerokosc // 2
+           wiersz = ['*'] * szerokosc
+           wiersz[srodkowy_index] = '-'
+           print(''.join(wiersz))
+        else:
+            print('*' * szerokosc)
+
+
+szerokosc = int(input("Podaj szerokosc prostokąta:" ))
+wysokosc = int(input("Podaj wysokosc prostokąta:"))
+
+rysuj_prostokat(szerokosc, wysokosc )
