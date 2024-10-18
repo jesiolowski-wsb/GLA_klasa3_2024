@@ -1,3 +1,4 @@
+1 ZADANIE
 def zlicz_samogloski(tekst):
     samogloski = "aeiou"
     licznik = 0
@@ -15,6 +16,8 @@ print(f'Liczba wystąpień samogłosek: {wynik}')
 
 
 
+2 ZADANIE
+
 def rysuj_prostokat(szerokosc, wysokosc):
     for i in range(wysokosc):
         if szerokosc % 2 == 1:
@@ -27,3 +30,20 @@ wysokosc = int(input("Podaj wysokość prostokąta: "))
 
 rysuj_prostokat(szerokosc, wysokosc)
 
+
+
+3 ZADANIE
+
+def potega(podstawa, wykladnik):
+    if wykladnik == 0:
+        return 1
+    return podstawa * potega(podstawa, wykladnik - 1)
+
+podstawa = float(input("Podaj podstawę: "))
+wykladnik = int(input("Podaj wykładnik (nieujemny): "))
+
+if wykladnik < 0:
+    print("Wykładnik musi być liczbą nieujemną.")
+else:
+    wynik = potega(podstawa, wykladnik)
+    print(f'{podstawa} do potęgi {wykladnik} wynosi: {wynik}')
