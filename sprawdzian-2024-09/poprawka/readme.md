@@ -21,7 +21,7 @@ Napisz program, który:
 
 ---
 
-## Zadanie 3: Rekurencyjne potęgowanie (5 punktów)
+## Zadanie 3: Rekurencyjne potęgowanie (6 punktów)
 
 Napisz funkcję rekurencyjną `potega(podstawa, wykladnik)`, która oblicza wynik potęgowania `podstawa` do potęgi `wykladnik`. Załóż, że wykładnik jest liczbą nieujemną.
 
