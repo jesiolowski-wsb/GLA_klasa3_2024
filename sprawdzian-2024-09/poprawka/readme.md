@@ -1,6 +1,6 @@
 # Sprawdzian poprawkowy z rekurencji i podstaw algorytmów
 
-## Zadanie 1: Zliczanie samogłosek (3 punkty)
+## Zadanie 1: Zliczanie samogłosek (4 punkty)
 
 Napisz program, który w tekście poniżej zlicza liczbę wystąpień samogłosek (tj. **a, e, i, o, u**) oraz wyświetla wynik.
 
@@ -51,7 +51,7 @@ for i in range(wysokosc):
 
 ---
 
-## Zadanie 3: Rekurencyjne potęgowanie (5 punktów)
+## Zadanie 3: Rekurencyjne potęgowanie (6 punktów)
 
 Napisz funkcję rekurencyjną `potega(podstawa, wykladnik)`, która oblicza wynik potęgowania `podstawa` do potęgi `wykladnik`. Załóż, że wykładnik jest liczbą nieujemną.
 
