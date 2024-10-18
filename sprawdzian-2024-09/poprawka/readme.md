@@ -7,28 +7,6 @@ Napisz program, który w tekście poniżej zlicza liczbę wystąpień samogłose
 tekst to przetestowania:
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[//]: # (### Rozwiązanie:)
-
-[//]: # (```python)
-
-[//]: # (tekst = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
-
-[//]: # (samogloski = "aeiou")
-
-[//]: # (liczba_samoglosek = 0)
-
-[//]: # ()
-[//]: # (for litera in tekst:)
-
-[//]: # (    if litera.lower&#40;&#41; in samogloski:)
-
-[//]: # (        liczba_samoglosek += 1)
-
-[//]: # ()
-[//]: # (print&#40;"Liczba samogłosek:", liczba_samoglosek&#41;)
-
-[//]: # (```)
-
 ---
 
 ## Zadanie 2: Rysowanie prostokąta (5 punktów)
@@ -40,33 +18,6 @@ Napisz program, który:
 
 > [!TIP] 
 > Przemyśl po czym można poznać czy jesteśmy na elemencie centralnym zbioru danych
-
-[//]: # (### Rozwiązanie:)
-
-[//]: # (```python)
-
-[//]: # (szerokosc = int&#40;input&#40;"Podaj szerokość prostokąta: "&#41;&#41;)
-
-[//]: # (wysokosc = int&#40;input&#40;"Podaj wysokość prostokąta: "&#41;&#41;)
-
-[//]: # ()
-[//]: # (for i in range&#40;wysokosc&#41;:)
-
-[//]: # (    wiersz = "")
-
-[//]: # (    for j in range&#40;szerokosc&#41;:)
-
-[//]: # (        if szerokosc % 2 == 1 and j == szerokosc // 2:)
-
-[//]: # (            wiersz += "-")
-
-[//]: # (        else:)
-
-[//]: # (            wiersz += "*")
-
-[//]: # (    print&#40;wiersz&#41;)
-
-[//]: # (```)
 
 ---
 
