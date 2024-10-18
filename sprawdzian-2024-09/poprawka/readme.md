@@ -1,6 +1,6 @@
 # Sprawdzian poprawkowy z rekurencji i podstaw algorytmów
 
-## Zadanie 1: Zliczanie samogłosek (3 punkty)
+## Zadanie 1: Zliczanie samogłosek (4 punkty)
 
 Napisz program, który w tekście poniżej zlicza liczbę wystąpień samogłosek (tj. **a, e, i, o, u**) oraz wyświetla wynik.
 
