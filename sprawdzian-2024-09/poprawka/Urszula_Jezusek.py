@@ -1,4 +1,12 @@
-1 ZADANIE
+# Pogadajmy proszę o kazdym z zadań na zajęciach przed klasą
+# Chwilowo 0 pkt dla każdego, bo nie wiem czy te rozwiązania są
+# dla Ciebie zrozumiałe, czy jedynie skopiowane z odpowiedzi ChatGPT.
+# Gdy będziesz w stanie o kazdym z tych rozwiązań poopowiadać
+# w sposób pokazujący że rozumiesz jak każda linijka działa
+# oczywiście pododaję punkty z których wyjdzie finalna ocena
+
+# 1 ZADANIE
+# Zdobyte punkty: 0/4 (potencjalnie 4/4)
 def zlicz_samogloski(tekst):
     samogloski = "aeiou"
     licznik = 0
@@ -14,10 +22,8 @@ tekst = """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 wynik = zlicz_samogloski(tekst)
 print(f'Liczba wystąpień samogłosek: {wynik}')
 
-
-
-2 ZADANIE
-
+# 2 ZADANIE
+# Zdobyte punkty: 0/5 (potencjalnie 5/5)
 def rysuj_prostokat(szerokosc, wysokosc):
     for i in range(wysokosc):
         if szerokosc % 2 == 1:
@@ -30,10 +36,8 @@ wysokosc = int(input("Podaj wysokość prostokąta: "))
 
 rysuj_prostokat(szerokosc, wysokosc)
 
-
-
-3 ZADANIE
-
+# 3 ZADANIE
+# Zdobyte punkty: 0/6 (potencjalnie 6/6)
 def potega(podstawa, wykladnik):
     if wykladnik == 0:
         return 1
@@ -49,7 +53,8 @@ else:
     print(f'{podstawa} do potęgi {wykladnik} wynosi: {wynik}')
 
 
-4 ZADANIE
+# 4 ZADANIE
+# Zdobyte punkty: 0/7 (potencjalnie 7/7)
 import random
 import string
 
