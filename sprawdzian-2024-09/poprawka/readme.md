@@ -1,4 +1,4 @@
-# Sprawdzian poprawkowy z rekurencji i podstaw algorytmów
+# Sprawdzian poprawkowy z rekurencji i podstaw algorytmów (18.10.2024)
 
 ## Zadanie 1: Zliczanie samogłosek (4 punkty)
 
