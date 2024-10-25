@@ -1,3 +1,6 @@
+plik = open('plik.txt', 'r')
+zawartosc = plik.read()
+plik.close()
 def dziesietny_na_binarny(liczba):
     wynik = ''
     while liczba > 0:
