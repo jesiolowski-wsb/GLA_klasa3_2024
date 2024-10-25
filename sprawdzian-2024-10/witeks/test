@@ -8,6 +8,32 @@ def dziesietny_na_binarny_manualnie(zawartosc):
         zawartosc //= 2
     return wynik
 
-# Przykład
 liczba = 30
 print(dziesietny_na_binarny_manualnie(zawartosc))
+
+
+
+zad2 
+
+
+with open("tekst.txt", "r", encoding="utf-8") as file:
+    content = file.read()
+
+words = [word for word in content.split() if len(word) > 3 and word[0].isupper()]
+with open("analiza.txt", "w", encoding="utf-8") as file:
+    for word in words:
+        file.write(word + "\n")
+
+
+
+zad3
+
+import random def generuj_id(): 
+letters = ''.join(random.choice('ABCDE') for _ in range(2)) 
+numbers = ''.join(random.choice('0123456789') for _ in range(3))  
+with open("id.txt", "w") as file: file.write(new_id) 
+ID return new_id
+
+
+
+zad4
