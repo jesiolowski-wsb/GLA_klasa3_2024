@@ -1,3 +1,4 @@
+zad 1
 plik = open('plik.txt', 'r')
 zapis = plik.read()
 def binaryzacja(zapis):
@@ -6,3 +7,4 @@ def binaryzacja(zapis):
         wynik = str(zapis % 2) + wynik
         zapis //= 2
     return wynik
+zad 2
