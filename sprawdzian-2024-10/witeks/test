@@ -1,11 +1,13 @@
 zad 1 
-def dziesietny_na_binarny_manualnie(liczba):
+plik = open('plik.txt', 'r')
+zawartosc = plik.read()
+def dziesietny_na_binarny_manualnie(zawartosc):
     wynik = ''
-    while liczba > 0:
-        wynik = str(liczba % 2) + wynik
-        liczba //= 2
+    while zawartosc > 0:
+        wynik = str(zawartosc % 2) + wynik
+        zawartosc //= 2
     return wynik
 
 # Przykład
 liczba = 30
-print(dziesietny_na_binarny_manualnie(liczba))  
+print(dziesietny_na_binarny_manualnie(zawartosc))
