@@ -1,0 +1,8 @@
+plik = open('plik.txt', 'r')
+zapis = plik.read()
+def binaryzacja(zapis):
+    wynik = ''
+    while zapis > 0:
+        wynik = str(zapis % 2) + wynik
+        zapis //= 2
+    return wynik
