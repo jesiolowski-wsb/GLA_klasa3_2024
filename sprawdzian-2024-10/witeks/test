@@ -1,1 +1,11 @@
+zad 1 
+def dziesietny_na_binarny_manualnie(liczba):
+    wynik = ''
+    while liczba > 0:
+        wynik = str(liczba % 2) + wynik
+        liczba //= 2
+    return wynik
 
+# Przykład
+liczba = 30
+print(dziesietny_na_binarny_manualnie(liczba))  
