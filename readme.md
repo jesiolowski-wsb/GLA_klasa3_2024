@@ -24,16 +24,16 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 5 | List comprehensions – zwięzły sposób tworzenia list.                                                                       |   Julia                   |        18.10.2024                |             |
 | 3 | systemy liczbowe i konwertowanie między systemami                                                                          |   Michał                  |        4.10.2024                 |  [onedrive](https://1drv.ms/p/s!Ahvhmcr-0MY8a0kMlTxvv3C9EAM?e=1avMFs)           |   
 | 4 | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                                       |   Lena                    |        11.10.2024                |  [canva](https://www.canva.com/design/DAGTFwjdFis/etFXKeiS_rPjNesLSUrepw/view?utm_content=DAGTFwjdFis&utm_campaign=designshare&utm_medium=link&utm_source=editor)           |
-|              | algorytm “dziel i zwyciężaj”                                                                                               |   Staś                    |                                  |             |
-|              | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                    |                           |                                  |             |
-|              | bramki logiczne                                                                                                            |   Karol                   |                                  |             |
-|              | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |                           |                                  |             |
-|              | generowanie liczb pierwszych metodą sita Eratostenesa                                                                      |   Kuba                    |                                  |             |
-|              | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                      |   Witek                   |                                  |             |
-|              | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania |                           |                                  |             |
-|              | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                  |   Ula                     |                                  |             |
-|              | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                          |   Wiktor                  |                                  |             |
-|              | bibioteka matplotlib na przykladzie drzewa binarnego                                                                       |                           |                                  |             |
+|   | algorytm “dziel i zwyciężaj”                                                                                               |   Staś                    |                                  |             |
+|   | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                    |                           |                                  |             |
+| 5 | bramki logiczne                                                                                                            |   Karol                   |        8.11.2024                 |             |
+|   | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |                           |                                  |             |
+|   | generowanie liczb pierwszych metodą sita Eratostenesa                                                                      |   Kuba                    |                                  |             |
+|   | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                      |   Witek                   |                                  |             |
+|   | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania |                           |                                  |             |
+|   | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                  |   Ula                     |                                  |             |
+|   | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                          |   Wiktor                  |                                  |             |
+|   | bibioteka matplotlib na przykladzie drzewa binarnego                                                                       |                           |                                  |             |
 
 
 
