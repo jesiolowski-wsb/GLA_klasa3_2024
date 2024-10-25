@@ -1,0 +1,14 @@
+ZADANIE 1
+
+with open('liczby.txt', 'r') as plik:
+    zawartosc = plik.read().split('\n')
+
+def dziesietny_na_binarny(liczba):
+    print(int(liczba))
+    wynik = ''
+    while liczba > 0:
+        wynik = str(liczba % 2) + wynik
+        liczba //= 2
+    return wynik
+
+dziesietny_na_binarny(zawartosc)
