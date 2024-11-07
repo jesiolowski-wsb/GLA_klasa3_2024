@@ -25,6 +25,20 @@ Przykład dla n = 5:
 >                          8
 > ```
 
+### Rozwiązanie:
+
+```python
+def tablica_mnozenia(n):
+    for i in range(1, n+1):
+        for j in range(1, n+1):
+            print(f"{i*j:3}", end=" ")  # :3 zapewnia, że każda liczba zajmuje 3 miejsca
+        print()
+
+print("Tablica mnożenia 5x5:")
+tablica_mnozenia(5)
+```
+
+
 ---
 
 ## Zadanie 2: Rekurencyjne odwracanie listy (7 punktów)
@@ -34,6 +48,21 @@ Przykład:
 ```python
 print(odwroc_liste([1, 2, 3, 4, 5]))  # Powinno zwrócić [5, 4, 3, 2, 1]
 print(odwroc_liste(['a', 'b', 'c']))  # Powinno zwrócić ['c', 'b', 'a']
+```
+
+### Rozwiązanie:
+
+```python
+def odwroc_liste(lista):
+    if len(lista) <= 1:
+        return lista
+    else:
+        return odwroc_liste(lista[1:]) + [lista[0]]
+
+print("\nOdwrócona lista [1, 2, 3, 4, 5]:")
+print(odwroc_liste([1, 2, 3, 4, 5]))
+
+
 ```
 
 ---
@@ -56,6 +85,44 @@ Dziękuję za grę!
 
 > [!TIP] 
 > na zajęciach używaliśmy już `random.choice()`, tutaj lepsze zastosowanie będzie mieć `random.randint(1, 100)`
+
+### Rozwiązanie:
+
+```python
+import random
+
+def zgadywanka():
+    while True:
+        liczba = random.randint(1, 100)
+        print("\nZgadnij liczbę od 1 do 100 (lub wpisz 'koniec' aby zakończyć):")
+
+        while True:
+            proba = input("> ")
+            if proba.lower() == 'koniec':
+                print("Dziękuję za grę!")
+                return
+
+            try:
+                proba = int(proba)
+                if proba < liczba:
+                    print("Za mało!")
+                elif proba > liczba:
+                    print("Za dużo!")
+                else:
+                    print(f"Brawo! Zgadłeś! Wylosowana liczba to {liczba}.")
+                    break
+            except ValueError:
+                print("Proszę podać liczbę lub 'koniec'.")
+
+        if input("Czy chcesz zagrać ponownie? (tak/nie): ").lower() != 'tak':
+            print("Dziękuję za grę!")
+            break
+
+
+zgadywanka()
+```
+
+---
 
 ## Zadanie 4: LuckyNumber (4 punktów)
 Napisz funkcję `lucky_number(n)`, która dla liczb od 1 do n wyświetla:
@@ -81,4 +148,21 @@ Lucky        # 6 jest podzielne przez 2
 LuckyNumber  # 8 jest podzielne przez 2 i większe niż 7
 9
 LuckyNumber  # 10 jest podzielne przez 2 i większe niż 7
+```
+
+### Rozwiązanie:
+
+```python
+def lucky_number(n):
+    for i in range(1, n + 1):
+        if i % 2 == 0 and i > 7:
+            print("LuckyNumber")
+        elif i % 2 == 0:
+            print("Lucky")
+        elif i > 7:
+            print("Number")
+        else:
+            print(i)
+
+lucky_number(10)
 ```
