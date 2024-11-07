@@ -45,10 +45,36 @@ Oczekiwana zawartość pliku `wyniki.txt`:
 > 2. Kontynuuj dzielenie wyniku przez 2, aż wynik będzie równy 0
 > 3. Odczytaj cyfry od końca
 
-[//]: # (### Rozwiązanie zadania 1:)
-[//]: # (```python)
-[//]: # ()
-[//]: # (```)
+### Rozwiązanie:
+
+```python
+def konwertuj_na_binarny(liczba):
+    if liczba == 0:
+        return "0"
+
+    liczba = int(liczba)
+    wynik = ""
+    while liczba > 0:
+        reszta = liczba % 2
+        wynik = str(reszta) + wynik
+        liczba = liczba // 2
+    return wynik
+
+
+def konwertuj_liczbe(liczba):
+    bin_num = konwertuj_na_binarny(liczba)
+    return f"{liczba} : {bin_num}"
+
+
+with open('liczby.txt', 'r') as plik_wejsciowy:
+    liczby = plik_wejsciowy.read().split('\n')
+    if liczby[-1] == '':  # usuwamy pusty element jeśli jest na końcu
+        liczby = liczby[:-1]
+
+with open('wyniki.txt', 'w') as plik_wyjsciowy:
+    for liczba in liczby:
+        plik_wyjsciowy.write(konwertuj_liczbe(liczba) + '\n')
+```
 
 ---
 
@@ -76,10 +102,19 @@ Potem
 > [!TIP]
 > jeśli `.upper()` wywołane na elemencie łańcuchowym zmienia string na duże litery, `.isupper()` pomoże obsłużyć warunek sprawdzenia czy element jest napisany dużymi czy małymi literami
 
-[//]: # (### Rozwiązanie zadania 2:)
-[//]: # (```python)
-[//]: # ()
-[//]: # (```)
+### Rozwiązanie:
+
+```python
+with open('tekst.txt', 'r') as plik:
+    tekst = plik.read()
+
+slowa = [slowo for slowo in tekst.split()
+         if len(slowo) > 3 and slowo[0].isupper()]
+
+with open('analiza.txt', 'w') as plik:
+    for slowo in slowa:
+        plik.write(slowo + '\n')
+```
 
 ---
 
@@ -97,10 +132,25 @@ nowe_id = generuj_id()
 print(nowe_id)  # np. "AB123"
 ```
 
-[//]: # (### Rozwiązanie zadania 3:)
-[//]: # (```python)
-[//]: # ()
-[//]: # (```)
+### Rozwiązanie:
+
+```python
+import random
+
+def generuj_id():
+    duze_litery = ['A', 'B', 'C', 'D', 'E']
+    cyfry = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+    litery = random.choice(duze_litery) + random.choice(duze_litery)
+    cyfry = random.choice(cyfry) + random.choice(cyfry) + random.choice(cyfry)
+
+    nowe_id = f"{litery}{cyfry}"
+
+    with open('id.txt', 'a') as plik:
+        plik.write(nowe_id + '\n')
+
+    return nowe_id
+```
 
 ---
 
@@ -125,9 +175,20 @@ Oczekiwana zawartość pliku `wyniki.txt`:
 8
 ```
 
-[//]: # (### Rozwiązanie zadania 4:)
-[//]: # (```python)
-[//]: # ()
-[//]: # (```)
+### Rozwiązanie:
+
+```python
+with open('dane.txt', 'r') as plik:
+    # czytamy plik linia po linii
+    wyniki = [str(int(linia.strip(), 2))
+              for linia in plik
+              if int(linia.strip(), 2) % 2 == 0]
+
+with open('wyniki.txt', 'w') as plik:
+    for wynik in wyniki:
+        plik.write(wynik + '\n')
+```
+
+---
 
 Powodzenia!
