@@ -1,3 +1,4 @@
+# Zdobyte punkty: 6/6
 n = int(input("Podaj n: "))
 
 for i in range(1, n+1):

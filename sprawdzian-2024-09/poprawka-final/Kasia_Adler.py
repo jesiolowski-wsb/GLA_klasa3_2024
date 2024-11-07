@@ -1,3 +1,4 @@
+# Zdobyte punkty: 4/4
 # zadanie 4
 def lucky_number(n):
     for i in range(1, n + 1):
@@ -10,6 +11,7 @@ def lucky_number(n):
         else:
             print(i)
 
+# Zdobyte punkty: 6/6
 # zadanie 1
 def tablica_mnozenia(n):
     for i in range(1, n + 1):
@@ -17,6 +19,7 @@ def tablica_mnozenia(n):
             print(f"{i * j:2}", end=" ")   # dodałam :2 żeby były ładne odstępy
         print()
 
+# Zdobyte punkty: 7/7
 # zadanie 2
 def odwroc_liste(lista):
 
@@ -28,6 +31,7 @@ def odwroc_liste(lista):
 print(odwroc_liste([1, 2, 3, 4, 5]))
 print(odwroc_liste(['a', 'b', 'c']))
 
+# Zdobyte punkty: 5/5
 # zadanie 3
 import random
 

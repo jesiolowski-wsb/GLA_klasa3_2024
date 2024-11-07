@@ -1,3 +1,6 @@
+# Zdobyte punkty: 1/6
+# tutaj chyba przekombinowałeś niestety:(
+# zupełnie niezgodne z poleceniem
 def lucky_number(n):
 	if n%2 == 0:
 		print("Lucky", end='')
