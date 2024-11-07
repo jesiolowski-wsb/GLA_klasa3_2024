@@ -146,7 +146,7 @@ Lucky        # 4 jest podzielne przez 2
 Lucky        # 6 jest podzielne przez 2
 7
 LuckyNumber  # 8 jest podzielne przez 2 i większe niż 7
-9
+Number
 LuckyNumber  # 10 jest podzielne przez 2 i większe niż 7
 ```
 
