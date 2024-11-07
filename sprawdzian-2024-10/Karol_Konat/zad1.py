@@ -1,15 +1,17 @@
+# Zdobyte punkty: 6/6
 def convert(n):
 	tmp = ''
 	while n > 0:
 		tmp += str(n%2)
 		n = n//2
-
+	# wygodne to be honest - gratki
 	return tmp[::-1]
 
 
 
 data = []
 fp = open('liczby.txt', 'r')
+# brawo za użycie list comprehension!
 data = [int(a) for a in fp.readlines()]
 fp.close()
 
