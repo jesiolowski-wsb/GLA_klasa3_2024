@@ -1,3 +1,6 @@
+# Zdobyte punkty: 7/7
+# strasznie fajne i zwięzłe! Co prawda nazwa zmiennej bez sensu, ale rozumiem że to już Twoja estetyka
+
 sigmaligmadigma  = open('dane.txt', 'r')
 lines = sigmaligmadigma.readlines()
 sigmaligmadigma.close
