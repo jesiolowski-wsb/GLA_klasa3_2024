@@ -1,3 +1,4 @@
+# Zdobyte punkty: 5/5
 from random import randint
 
 def gierka():
@@ -25,9 +26,12 @@ def gierka():
 
 
 while True:
+	# ładneeeeeee :D
 	if not gierka():
 		break
 	c = input("Chcesz zagrać dalej (T/n): ")
+	# tutaj ciut przekombinowane ze sluchamy zarówno na 'koniec' jak i 'n', tyle ze w innych miejscach
+	# czyściej byłoby miec te funkcjonalnosc w jednym miejscu
 	if c.lower() == 'n':
 		print("Dziękuje za gre!")
 		break
