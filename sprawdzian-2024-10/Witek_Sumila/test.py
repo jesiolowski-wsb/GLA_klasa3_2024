@@ -1,4 +1,9 @@
-zad 1 
+# 17 pkt ALE:
+# -1pkt za wszystkie odpowiedzi do zadań w jednym pliku
+
+# Zdobyte punkty: 3/6
+# zad 1
+# polecenie prosiło o inna nazwe pliku
 plik = open('plik.txt', 'r')
 zawartosc = plik.read()
 plik.close()
@@ -9,14 +14,13 @@ def dziesietny_na_binarny_manualnie(zawartosc):
         zawartosc //= 2
     return wynik
 
+# nie rozumiem skąd ta wartosc?
 liczba = 30
+# brak zapisu do pliku
 print(dziesietny_na_binarny_manualnie(zawartosc))
 
-
-
-zad2 
-
-
+# Zdobyte punkty: 5/5
+# zad2
 with open("tekst.txt", "r", ) as file:
     content = file.read()
 
@@ -25,24 +29,17 @@ with open("analiza.txt", "w") as file:
     for word in words:
         file.write(word + "\n")
 
+# Zdobyte punkty: 2/4
+# zad3
+import random
+def generuj_id():
+    letters = ''.join(random.choice('ABCDE') for _ in range(2))
+    numbers = ''.join(random.choice('0123456789') for _ in range(3))
+# zabraklo definicji new_id - nie mamy mozliwosci zapisu nieistniejacej zmiennej
+with open("id.txt", "w") as file: file.write(new_id)
 
-
-zad3
-
-import random def generuj_id(): 
-letters = ''.join(random.choice('ABCDE') for _ in range(2)) 
-numbers = ''.join(random.choice('0123456789') for _ in range(3))  
-with open("id.txt", "w") as file: file.write(new_id) 
-
-
-
-
-zad4
-
-
-
-
-
+# Zdobyte punkty: 7/7
+# zad4
 dane  = open('dane.txt', 'r')
 lines = dane.readlines()
 dane.close()
