@@ -48,7 +48,7 @@ print(f"{podstawa} do potegi {wykladnik} wynosi {wynik}")
 
 
 # zad.4
-# zdobyte punkty: 0/7, ale potencjalnie 7/7
+# zdobyte punkty: 4/7, ale potencjalnie 7/7
 # Obawiam się ze ta odpowiedź byla mocno wspomagana pomocami typu chatGPT
 # pogadajmy proszę o tym kodzie na zajęciach i jeśli będziesz w stanie wytlumaczyc
 # jak działa - podbiję ocenę o 7pkt
@@ -85,6 +85,7 @@ def sprawdz_sile_hasla(haslo):
         ocena = "Bardzo mocne"
 
     return ocena
+
 if __name__ == "__main__":
   dlugosc = int(input("Podaj długość hasła: "))
   haslo = generuj_haslo(dlugosc)
