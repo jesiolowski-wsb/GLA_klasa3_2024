@@ -10,29 +10,23 @@ def lucky_number(n):
         else:
             print(i)
 
----
-
 # zadanie 1
 def tablica_mnozenia(n):
     for i in range(1, n + 1):
         for j in range(1, n + 1):
-            print(f"{i * j:2}", end=" ")   #dodałam :2 żeby były ładne odstępy
+            print(f"{i * j:2}", end=" ")   # dodałam :2 żeby były ładne odstępy
         print()
-
----
 
 # zadanie 2
 def odwroc_liste(lista):
 
-    if len(lista) <= 1: #warunek bazowy bo po co odwracac 1 znak
+    if len(lista) <= 1: # warunek bazowy bo po co odwracac 1 znak
         return lista
     return [lista[-1]] + odwroc_liste(lista[:-1])
 
 #test
 print(odwroc_liste([1, 2, 3, 4, 5]))
 print(odwroc_liste(['a', 'b', 'c']))
-
----
 
 # zadanie 3
 import random
