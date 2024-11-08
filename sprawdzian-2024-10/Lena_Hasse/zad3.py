@@ -1,8 +1,12 @@
+# Zdobyte punkty: 4/4
+# -1 pkt za brak zapisu do pliku, ale +1 za świetne użycie range()
+
 import random
 def generuj_id():
     znaki='ABCDE'
     cyfry='0987654321'
     wynik=''
+    # mega fajny sposób z tym range!
     for i in range (0,2):
         wynik+=random.choice(znaki)
     for j in range (0,3):

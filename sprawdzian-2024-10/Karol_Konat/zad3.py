@@ -1,3 +1,7 @@
+# Zdobyte punkty: 5/4
+
+# ej no... to się nudne robi... kolejny komplement dla Ciebie
+# fajny sposób importowania tylko tego, czego potrzebujemy!
 from random import randint, choice
 
 LETTERS = "ABCDEFGHIJKLMNOPRSTUWVQXYZ"

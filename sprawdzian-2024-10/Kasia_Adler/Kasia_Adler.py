@@ -1,5 +1,6 @@
-ZADANIE 1
+# Zdobyte punkty: 5/6
 
+#ZADANIE 1
 with open('liczby.txt', 'r') as plik:
     zawartosc = plik.read()
 
@@ -12,4 +13,5 @@ def dziesietny_na_binarny(liczba):
 
 dane = zawartosc.split("\n")
 for d in dane:
+    # super, prawie pełen sukces - zabrakło małego elementu tj. write()
     print(dziesietny_na_binarny(int(d)))

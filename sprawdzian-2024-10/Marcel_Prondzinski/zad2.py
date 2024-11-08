@@ -1,3 +1,5 @@
+# Zdobyte punkty: 5/5
+
 with open("tekst.txt", "r") as file:
     content = file.read()
 
