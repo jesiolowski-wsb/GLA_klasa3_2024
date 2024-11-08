@@ -28,7 +28,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 |   | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                    |                           |                                  |             |
 | 6 | bramki logiczne                                                                                                            |   Karol                   |        8.11.2024                 |             |
 |   | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |                           |                                  |             |
-|   | generowanie liczb pierwszych metodą sita Eratostenesa                                                                      |   Kuba                    |                                  |             |
+| 7 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                      |   Kuba                    |        15.11.2024                |             |
 |   | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                      |   Witek                   |                                  |             |
 |   | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania |                           |                                  |             |
 |   | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                  |   Ula                     |                                  |             |
