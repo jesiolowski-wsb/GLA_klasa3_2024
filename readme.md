@@ -29,7 +29,7 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 6 | bramki logiczne                                                                                                            |   Karol                   |        8.11.2024                 |             |
 |   | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |                           |                                  |             |
 | 7 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                      |   Kuba                    |        15.11.2024                |             |
-|   | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                      |   Witek                   |                                  |             |
+| 8 | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                      |   Witek                   |        22.11.2024                |             |
 |   | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania |                           |                                  |             |
 |   | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                  |   Ula                     |                                  |             |
 |   | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                          |   Wiktor                  |                                  |             |
