@@ -7,7 +7,7 @@
 > - Dla każdego rozwiązania poproszę osobny plik, tj struktura odpowiedzi powinna wyglądać tak:
 > ```
 > \sprawdzian-2024-10\
->                    \termin_2\
+>                    \termin_3\
 >                             \jak-kowalski\
 >                                          \zad1.py
 >                                          \zad2.py
