@@ -1,4 +1,4 @@
-# Sprawdzian z obsługi plików i konwersji między systemami liczbowymi - 25.10.2024
+# Sprawdzian z obsługi plików i konwersji między systemami liczbowymi (25.10.2024)
 **Czas: 45 minut**  
 **Maksymalna liczba punktów: 22**
 
