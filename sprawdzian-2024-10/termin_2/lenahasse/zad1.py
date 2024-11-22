@@ -1,3 +1,5 @@
+# Zdobyte punkty: 6/6
+
 def dziesietny_na_osemkowy(liczba):
     wynik = ''
     while liczba > 0:
