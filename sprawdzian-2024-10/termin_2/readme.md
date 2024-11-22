@@ -170,7 +170,7 @@ Zawartość `oct.txt`:
 
 Oczekiwana zawartość `bin.txt`:
 ```
-001111
+1111
 101010
 ```
 
