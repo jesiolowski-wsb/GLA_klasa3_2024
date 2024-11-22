@@ -156,7 +156,7 @@ print(generuj_kod())
 
 ## Zadanie 4: Konwerter OCT -> BIN (5 punktów)
 Napisz program konwertujący liczby ósemkowe z pliku na binarne:
-1. Wczytaj `oct.txt`
+1. Wczytaj `oct.txt` (liczby zapisane w systemie ósemkowym)
 2. Przekonwertuj na BIN
 3. Zapisz do `bin.txt` tylko liczby dłuższe niż 3 bity
 
