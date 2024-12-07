@@ -1,4 +1,4 @@
-# Sprawdzian z obsługi plików i konwersji między systemami liczbowymi (xx.xx.2024)
+# Druga poprawka sprawdzianu z obsługi plików i konwersji między systemami liczbowymi (09.12.2024)
 **Czas: 45 minut**  
 **Maksymalna liczba punktów: 22**
 
@@ -13,6 +13,6 @@
 >                                          \zad2.py
 >                                          \zad3.py
 > ```
-> - Oceniane będą: poprawność działania, styl kodu oraz efektywność rozwiązania
+> - Oceniane będą: poprawność działania, styl kodu, efektywność rozwiązania oraz spełnianie kryteriów polecenia
 
 ---
