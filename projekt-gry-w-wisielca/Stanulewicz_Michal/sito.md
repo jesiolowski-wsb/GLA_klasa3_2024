@@ -13,6 +13,7 @@ Napisz funkcję `sito_eratostenesa(n)`, która:
 
 ### Przykład algorytmu w pseudokodzie
 ```
+    sito = [1..n]
     DLA i = 2 DO n:
         JEŻELI sito[i] == PRAWDA:
             // Tak, linia poniżej to delikatna zmiana wzgledem implementacji z zadania maturalnego
