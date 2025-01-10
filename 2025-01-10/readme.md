@@ -1,6 +1,6 @@
-1. **Podzielcie się na grupy 3-4 osobowe**
+1. **Podzielcie się na 2-3 osobowe grupy**
 
-2. **Wykorzystajcie znane sobie narzędzia AI** (np. ChatGPT, Google Bard, Claude, etc.) do uzyskania odpowiedzi na następujące pytania:  
+2. **Wykorzystajcie znane sobie narzędzia AI** (np. ChatGPT, Google Gemini, Claude, etc.) do uzyskania odpowiedzi na następujące pytania:  
    I. Zalety i wady energii jądrowej  
    II. Sztuczna inteligencja w medycynie  
    III. Wpływ zmian klimatycznych na różne regiony świata  
