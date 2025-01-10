@@ -1,4 +1,4 @@
-# Bramki logiczne - ćwiczenie wprowadzające (20 punktów)
+# Bramki logiczne - ćwiczenie wprowadzające (12 punktów)
 
 ## Wprowadzenie
 Bramki logiczne to podstawowe elementy elektroniki cyfrowej. Działają na wartościach True (1) i False (0).
@@ -18,8 +18,36 @@ print(f"AND(True, False) = {AND(True, False)}")    # False
 print(f"AND(True, True) = {AND(True, True)}")      # True
 ```
 
-## Zadanie 2: Tabela prawdy (6 punktów)
+### Rozwiązanie:
+```python
+def AND(a, b):
+    return a and b
+
+def OR(a, b):
+    return a or b
+
+def NOT(a):
+    return not a
+ ```
+
+## Zadanie 2: Tabela prawdy (6 punkty)
 Napisz funkcję `wyswietl_tabele_prawdy()`, która pokaże działanie wszystkich zaimplementowanych bramek:
+
+```python
+def wyswietl_tabele_prawdy():
+    print("a     b     AND    OR     NOT(a)")
+    print("-" * 35)
+
+    for a in [False, True]:
+        for b in [False, True]:
+            print(f"{int(a):<5} {int(b):<5}", end=" ")
+            print(f"{int(AND(a,b)):<7}", end=" ")
+            print(f"{int(OR(a,b)):<7}", end=" ")
+            print(f"{int(NOT(a))}")
+
+# Wywołanie:
+wyswietl_tabele_prawdy()
+```
 
 ### Oczekiwany wynik:
 ```
@@ -29,6 +57,39 @@ a     b     AND    OR     NOT(a)
 0     1     0      1      1
 1     0     0      1      0
 1     1     1      1      0
+```
+
+### Rozwiązanie:
+
+```python
+def AND(a, b):
+    return a and b
+
+def OR(a, b):
+    return a or b
+
+def NOT(a):
+    return not a
+
+def wyswietl_tabele_prawdy():
+    print("a     b     AND    OR     NOT(a)")
+    print("-" * 35)
+
+    for a in [False, True]:
+        for b in [False, True]:
+            print(f"{int(a):<5} {int(b):<5}", end=" ")
+            print(f"{int(AND(a,b)):<7}", end=" ")
+            print(f"{int(OR(a,b)):<7}", end=" ")
+            print(f"{int(NOT(a))}")
+
+# Testy
+print("Test poszczególnych bramek:")
+print(f"AND(True, True) = {AND(True, True)}")
+print(f"OR(True, False) = {OR(True, False)}")
+print(f"NOT(True) = {NOT(True)}")
+
+print("\nPełna tabela prawdy:")
+wyswietl_tabele_prawdy()
 ```
 
 ## Zadanie 3: Zaawansowana tabela prawdy (8 punktów)
@@ -53,6 +114,26 @@ a     b     c     COMPLEX(a,b,c)
 1     1     0           1
 1     1     1           1
 ```
+
+### Rozwiązanie:
+
+```python
+def COMPLEX(a, b, c):
+    return (a and b) or (not c)
+
+def wyswietl_tabele_complex():
+    print("a     b     c     COMPLEX(a,b,c)")
+    print("-" * 30)
+    for a in [False, True]:
+        for b in [False, True]:
+            for c in [False, True]:
+                wynik = COMPLEX(a, b, c)
+                print(f"{int(a):<5} {int(b):<5} {int(c):<5} {int(wynik):<5}")
+
+print("Tabela prawdy dla bramki COMPLEX:")
+wyswietl_tabele_complex()
+```
+
 
 ## Kryteria oceny:
 - Poprawna implementacja bramki AND (2 punkty)
