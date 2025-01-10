@@ -1,0 +1,11 @@
+a=1
+b=2
+def bramkaand(a,b):
+    return a and b
+
+def bramkaor(a,b):
+    return a or b
+
+def bramkanot(a):
+    return not a
+
