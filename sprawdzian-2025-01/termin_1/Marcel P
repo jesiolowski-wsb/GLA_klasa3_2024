@@ -1,1 +1,9 @@
-
+zad 1 
+a=0
+b=1
+def bramkaAND(a,b):
+    return a and b
+def bramkaOR(a,b):
+    return a or b
+def bramkaNOT(a,b):
+    return not a
