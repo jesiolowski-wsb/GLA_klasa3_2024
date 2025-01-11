@@ -1,5 +1,5 @@
+# zad1 i zad 2
 x=0
-zad1 i zad 2
 y=1
 land=[]
 def bramkaAnd(a,b):
