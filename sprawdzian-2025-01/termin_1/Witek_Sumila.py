@@ -1,4 +1,4 @@
-# suma zdobytych punktow: 0/20
+# suma zdobytych punktow: 12/20
 # zad.1: 6/6
 # zad.2: 6/6
 # zad.3: 0/8
