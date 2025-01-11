@@ -1,4 +1,4 @@
-zad 1 i 2
+# zad 1 i 2
 a=1
 b=2
 def bramkaAND(a,b):
