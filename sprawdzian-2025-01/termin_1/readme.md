@@ -1,4 +1,4 @@
-# Bramki logiczne - ćwiczenie wprowadzające (12 punktów)
+# Bramki logiczne - ćwiczenie wprowadzające (20 punktów)
 
 ## Wprowadzenie
 Bramki logiczne to podstawowe elementy elektroniki cyfrowej. Działają na wartościach True (1) i False (0).
