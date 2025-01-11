@@ -1,4 +1,8 @@
-# zad 1 i 2
+# suma zdobytych punktow: 6/20
+# zad.1: 6/6
+# zad.2: 0/6
+# zad.3: 0/8
+
 a=1
 b=2
 def bramkaAND(a,b):
@@ -10,6 +14,8 @@ def bramkaOR(a,b):
 def bramkaNOT(a):
     return not a
 
+# ta czesc wg timestampa na githubie zostala dodana po czasie
+# więc przepraszam, ale nie mogę jej zaakceptować
 def wyswietl_tabele_prawdy():
     print("a    b    AND     OR     NOT(a)")
     print('--------------------------------')
