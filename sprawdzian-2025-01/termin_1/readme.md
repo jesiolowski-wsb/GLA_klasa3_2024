@@ -35,15 +35,7 @@ Napisz funkcję `wyswietl_tabele_prawdy()`, która pokaże działanie wszystkich
 
 ```python
 def wyswietl_tabele_prawdy():
-    print("a     b     AND    OR     NOT(a)")
-    print("-" * 35)
-
-    for a in [False, True]:
-        for b in [False, True]:
-            print(f"{int(a):<5} {int(b):<5}", end=" ")
-            print(f"{int(AND(a,b)):<7}", end=" ")
-            print(f"{int(OR(a,b)):<7}", end=" ")
-            print(f"{int(NOT(a))}")
+    ...
 
 # Wywołanie:
 wyswietl_tabele_prawdy()
