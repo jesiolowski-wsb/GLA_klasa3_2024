@@ -6,4 +6,4 @@ suma = [int(bin1, 2) + int(bin2, 2) for bin1, bin2 in zip(binn1, binn2)]
 
 with open("sum.txt", "w") as plik:
     for wynik in suma:
-        plik.write(f"{wynik}")
+        plik.write(f"{wynik} \n")
