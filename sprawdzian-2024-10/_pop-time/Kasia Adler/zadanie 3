@@ -1,9 +1,8 @@
-with open("bin1.txt" , "r") as plik1, open("bin.2.txt" , "r") as plik2:
+with open("bin1.txt" , "r") as plik1, open("bin2.txt" , "r") as plik2:
+    binn1 = [linia.strip() for linia in plik1]
+    binn2 = [linia.strip() for linia in plik2]
 
-binn1 = [linia.strip() for linia in plik1]
-binn2 = [linia.strip() for linia in plik2]
-
-suma = [int(bin1, 2) + int(bin, 2) for bin1, bin2 in zip(binn1, binn2)]
+suma = [int(bin1, 2) + int(bin2, 2) for bin1, bin2 in zip(binn1, binn2)]
 
 with open("sum.txt", "w") as plik:
     for wynik in suma:
