@@ -16,3 +16,14 @@ with open('ternary.txt', 'w') as plik:
         ter_num = dec_to_ter(liczba)
         plik.write(f"{liczba} : {ter_num}\n")
 zad 2
+def telefony():
+    with open('phones.txt', 'r') as plik:
+        zbior_num = plik.read()
+
+    numery = [numer for numer in zbior_num.split()
+              if len(numer) == 9 and  numer in '56']
+    with open('valid_phones.txt', 'w') as plik:
+        for numer in numery:
+            plik.write(numer + '\n')
+
+zad 3
