@@ -1,0 +1,18 @@
+zad1
+def dec_to_ter(liczba):
+    if liczba == 0:
+        return "0"
+    liczba = int(liczba)
+    wynik = ""
+    while liczba > 0:
+        reszta = liczba % 3
+        wynik = str(reszta) + wynik
+        liczba = liczba // 3
+    return wynik
+with open('decimal.txt', 'r') as plik:
+    liczby = plik.read().splitlines()
+with open('ternary.txt', 'w') as plik:
+    for liczba in liczby:
+        ter_num = dec_to_ter(liczba)
+        plik.write(f"{liczba} : {ter_num}\n")
+zad 2
