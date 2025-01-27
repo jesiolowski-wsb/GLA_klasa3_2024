@@ -27,3 +27,13 @@ def telefony():
             plik.write(numer + '\n')
 
 zad 3
+with open('bin1.txt', 'r') as plik1, open('bin2.txt', 'r') as plik2:
+    bin1_numbers = [line.strip() for line in plik1.readlines()]
+    bin2_numbers = [line.strip() for line in plik2.readlines()]
+
+sumy = [int(b1, 2) + int(b2, 2) for b1, b2 in zip(bin1_numbers, bin2_numbers)]
+
+with open('sum.txt', 'w') as plik:
+    for suma in sumy:
+        plik.write(suma + '\n')
+zad 4
