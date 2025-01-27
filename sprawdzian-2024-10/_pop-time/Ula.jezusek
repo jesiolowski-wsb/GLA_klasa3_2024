@@ -37,3 +37,16 @@ with open('sum.txt', 'w') as plik:
     for suma in sumy:
         plik.write(suma + '\n')
 zad 4
+def analiza_tekstu():
+    with open('text_txt', 'r') as plik:
+        text = plik.read()
+    slowa = text.split()
+    slowa_count = len(slowa)
+    sr_dl_slow = sum(len(slowa) for slowo in slowa)
+    zdania_count = sum(1 for char in text if char in ".?!")
+
+    with open('stats.txt', 'w') as plik:
+        plik.write(f"Liczba słów: {slowa_count}\n")
+        plik.write(f"Srednia długość słowa: {sr_dl_slow}\n")
+        plik.write(f"Liczba zdań: {zdania_count}\n")
+
