@@ -1,10 +1,16 @@
-with open("phones.txt", "r") as plik:
-    numery = [linia.strip() for linia in plik]
+def pingwin():
+    with open("phones.txt", "r") as plik:
+        numery = [linia.strip() for linia in plik]
 
     poprawne = [num for num in numery if len(num) == 9 and num[0] in ("5", "6")]
 
 
-with open("valid_phones.txt", "w") as plik:
-    for num in poprawne:
-        plik.write(f"{num}")
+    with open("valid_phones.txt", "w") as plik:
+        for num in poprawne:
+            plik.write(f"{num} \n")
+
+
+
+
+pingwin()
 
