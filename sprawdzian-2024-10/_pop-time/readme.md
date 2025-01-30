@@ -40,6 +40,31 @@ Oczekiwana zawartość pliku `ternary.txt`:
 10 : 101
 ```
 
+### Rozwiązanie:
+
+```python
+def dec_to_ternary(liczba):
+    if liczba == 0:
+        return "0"
+    
+    liczba = int(liczba)
+    wynik = ""
+    while liczba > 0:
+        reszta = liczba % 3
+        wynik = str(reszta) + wynik
+        liczba = liczba // 3
+    return wynik
+
+with open('decimal.txt', 'r') as plik:
+    liczby = plik.readlines()
+    liczby = [x.strip() for x in liczby]
+
+with open('ternary.txt', 'w') as plik:
+    for liczba in liczby:
+        tern = dec_to_ternary(liczba)
+        plik.write(f"{liczba} : {tern}\n")
+```
+
 ---
 
 ## Zadanie 2: Analiza numerów telefonów (5 punktów)
@@ -63,6 +88,24 @@ Oczekiwana zawartość pliku `valid_phones.txt`:
 ```
 512345678
 612345678
+```
+
+### Rozwiązanie:
+
+```python
+def is_valid_phone(number):
+    return (len(number) == 9 and 
+            number.isdigit() and 
+            number[0] in ['5', '6'])
+
+with open('phones.txt', 'r') as plik:
+    numery = plik.read().splitlines()
+    
+valid_numbers = [num for num in numery if is_valid_phone(num)]
+
+with open('valid_phones.txt', 'w') as plik:
+    for num in valid_numbers:
+        plik.write(num + '\n')
 ```
 
 ---
@@ -91,6 +134,24 @@ Oczekiwana zawartość pliku `sum.txt`:
 15
 ```
 
+### Rozwiązanie:
+
+```python
+def bin_to_dec(binary):
+    return int(binary, 2)
+
+with open('bin1.txt', 'r') as f1, open('bin2.txt', 'r') as f2:
+    bin1 = f1.read().splitlines()
+    bin2 = f2.read().splitlines()
+
+sums = [bin_to_dec(b1) + bin_to_dec(b2) 
+        for b1, b2 in zip(bin1, bin2)]
+
+with open('sum.txt', 'w') as plik:
+    for suma in sums:
+        plik.write(f"{suma}\n")
+```
+
 ---
 
 ## Zadanie 4: Statystyki tekstu (7 punktów)
@@ -112,6 +173,31 @@ Oczekiwana zawartość pliku `stats.txt`:
 Liczba słów: 11
 Średnia długość słowa: 5.1
 Liczba zdań: 3
+```
+
+### Rozwiązanie:
+
+```python
+def analyze_text(text):
+    words = [word.strip('.,!?') for word in text.split()]
+    sentence_count = text.count('.') + text.count('!') + text.count('?')
+
+    word_count = len(words)
+    avg_length = round(sum(len(word) for word in words) / word_count, 1)
+
+    return word_count, avg_length, sentence_count
+
+
+with open('text.txt', 'r', encoding='utf-8') as plik:
+    text = plik.read()
+
+word_count, avg_length, sentence_count = analyze_text(text)
+
+with open('stats.txt', 'w', encoding='utf-8') as plik:
+    plik.write(f"Liczba słów: {word_count}\n")
+    plik.write(f"Średnia długość słowa: {avg_length}\n")
+    plik.write(f"Liczba zdań: {sentence_count}\n")
+
 ```
 
 ---
