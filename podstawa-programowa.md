@@ -1,4 +1,5 @@
 # Szczegółowe wymagania podstawy programowej informatyki
+bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 
 ## Zakres Podstawowy
 
