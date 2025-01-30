@@ -4,7 +4,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 ## Zakres Podstawowy
 
 | Obszar | Istotne na maturze | Wymagania szczegółowe |
-|--------|-------------------|----------------------|
+|--------|:------------------:|----------------------|
 | **I. Rozumienie, analizowanie i rozwiązywanie problemów** | X | - Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego) |
 | | X | - Stosowanie algorytmów na liczbach (badanie pierwszości, zamiana systemów liczbowych, działania na ułamkach z NWD i NWW) |
 | | X | - Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną, szyfrowanie) |
@@ -41,7 +41,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 ## Zakres Rozszerzony
 
 | Obszar | Istotne na maturze | Wymagania szczegółowe |
-|--------|-------------------|----------------------|
+|--------|:------------------:|----------------------|
 | **I. Rozumienie, analizowanie i rozwiązywanie problemów** | X | - Stosowanie metody wstępującej i zstępującej |
 | | X | - Dobór odpowiednich struktur danych |
 | | X | - Ocena poprawności i efektywności algorytmów |
