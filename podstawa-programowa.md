@@ -16,8 +16,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 | | | Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
 | | | Wyróżnianie podproblemów (metoda połowienia, podejście zachłanne, rekurencja) |
 | | | Porównywanie algorytmów (złożoność obliczeniowa) |
-| | | Sprawdzanie poprawności algorytmów |
-| | | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
+| | ✓ | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
 | | | Praca z arkuszem kalkulacyjnym (funkcje, filtrowanie, wykresy) |
 | | | Praca z bazami danych (min. dwie tabele, relacje, kwerendy) |
 | **PODSUMOWANIE** | 15 elementów | 3 zrealizowane | **Procent zrealizowanego materiału: 20%** |
