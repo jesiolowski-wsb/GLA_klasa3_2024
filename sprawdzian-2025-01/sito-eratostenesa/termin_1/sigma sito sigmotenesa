@@ -20,7 +20,7 @@ def sito_pelne(n):
     h=h+1
     lista_liczb.append(element)
   czas1 = time.time() - start_time1
-  print("proste\nliczba operacji :", h, "liczba iteracji: ", literacji1, "czas :", czas1)
+
 
 sito_pelne(100000000)
 
@@ -43,7 +43,7 @@ def sito_optymalne(n):
     lista_liczb.append(element)
   czas2 = time.time() - start_time2
 
-  print("Optymalna\nliczba operacji :",j,"liczba iteracji: ",literacji2,"czas :",czas2)
+  
 sito_optymalne(100000000)
 def porownaj_wydajnosc(n):
  print(f"Porównanie wydajności dla n = {n}")
