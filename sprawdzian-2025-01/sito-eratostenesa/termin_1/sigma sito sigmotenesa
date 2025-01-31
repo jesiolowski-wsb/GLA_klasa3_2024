@@ -47,6 +47,5 @@ def sito_optymalne(n):
 sito_optymalne(100000000)
 
 
-# Test
-porownaj_wydajnosc(1000000)
+
 #sito optymalne ma znacznie mniej iteracji(mniej razy powtarza pentle) dla trgo jest szybsze pomimo tych samych wyników)
