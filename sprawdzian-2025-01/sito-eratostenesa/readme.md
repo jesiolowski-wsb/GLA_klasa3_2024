@@ -12,6 +12,14 @@ Wyjście programu powinno wyglądać jak poniżej (wyrównanie nie jest wymagane
 10 20  30  40  50  60  70  80  90  100
 ```
 
+#### Rozwiązanie:
+```python
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f"{i * j:4}", end="")
+    print()
+```
+
 ### Zadanie 2: Wzór z gwiazdek
 Napisz program, który rysuje prostokąt z gwiazdek. Wymiary prostokąta (liczba wierszy i kolumn) wprowadza użytkownik.
 Przykład dla wierszy = 4 i kolumn = 6:
