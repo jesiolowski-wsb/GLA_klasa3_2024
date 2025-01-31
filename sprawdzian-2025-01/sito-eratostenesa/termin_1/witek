@@ -1,1 +1,23 @@
 
+
+def sito_erystotelesa(n):
+    n<2
+
+    pierwiastek=int(n**0.5)
+    sito_erystotelesa=[True]*(n+1)
+    sito_erystotelesa[0]=[False]
+    sito_erystotelesa[1]=[False]
+
+    for i in range((2,pierwiastek, int(n))+1):
+        if sito_erystotelesa[i]==True:
+            for j in range(2,pierwiastek,i):
+               sito_erystotelesa[j]== False
+
+    return()
+
+print(sito_erystotelesa(20))
+
+
+
+
+
