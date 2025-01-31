@@ -5,7 +5,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 
 | Obszar | Istotne na maturze | Zrealizowane | Wymagania szczegółowe |
 |--------|:------------------:|:------------:|----------------------|
-| **I. Rozumienie, analizowanie i rozwiązywanie problemów** | X | | - Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego) |
+| **I. Rozumienie, analizowanie i rozwiązywanie problemów** | X | ✓ | - Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego) |
 | | X | | - Stosowanie algorytmów na liczbach (badanie pierwszości) |
 | | X | ✓ | - Stosowanie algorytmów na liczbach (zamiana systemów liczbowych) |
 | | X | | - Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
