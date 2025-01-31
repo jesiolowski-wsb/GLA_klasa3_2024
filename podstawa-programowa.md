@@ -19,8 +19,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 | | ✓ | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
 | | | Praca z arkuszem kalkulacyjnym (funkcje, filtrowanie, wykresy) |
 | | | Praca z bazami danych (min. dwie tabele, relacje, kwerendy) |
-| **PODSUMOWANIE** | 14 elementów | 4 zrealizowane |
-**Procent zrealizowanego materiału: 28%**
+| **PODSUMOWANIE** | 14 elementów | 4 zrealizowane (**28%**) |
 
 ## Zakres Rozszerzony
 
