@@ -1,0 +1,19 @@
+def sito(n):
+    tab = []
+    for i in range(n+1):
+        tab.append(0)
+    tab[0] = tab[1] = 1
+    i = 2
+    while i*i <= n:
+         if tab[i] == 0:
+             for j in range(i*i, n + 1, i):
+                tab[j] = 1
+         i += 1
+    return tab
+n = int(input("podaj wielkość sita:"))
+
+tab = sito(n)
+
+for i in range(n + 1):
+    if tab[i] == 0:
+        print(i, end = '')
