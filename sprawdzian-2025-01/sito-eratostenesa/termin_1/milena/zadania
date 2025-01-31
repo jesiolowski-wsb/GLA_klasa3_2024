@@ -1,0 +1,12 @@
+zadanie 1
+def sito_eratostenesa(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+print(sito_eratostenesa(20))
+
+
+
+zadanie 4
+# funkcja sprawdzajaca wszystkie liczby do n i sprawdzajaca liczby tylko do pierwiastka z n pokazuje te same liczby poniewaz jezeli istnieje pierwiastek z n to liczba nie jest pierwszxa
