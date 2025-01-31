@@ -9,12 +9,13 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 | | X | | - Stosowanie algorytmów na liczbach (badanie pierwszości: metoda naiwna i zoptymalizowana) |
 | | X | ✓ | - Stosowanie algorytmów na liczbach (zamiana systemów liczbowych) |
 | | X | | - Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
-| | X | | - Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną, szyfrowanie) |
+| | X | ✓ | - Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną) |
+| | X | | - Algorytmy na tekstach (szyfrowanie np. cezara) |
 | | X | | - Algorytmy sortowania (wstawianie, bąbelkowe) |
 | | X | | - Algorytm wydawania reszty |
 | | X | | - Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
 | | X | | - Wyróżnianie podproblemów (metoda połowienia, podejście zachłanne, rekurencja) |
-| | X | | - Porównywanie algorytmów |
+| | X | | - Porównywanie algorytmów (złożoność obliczeniowa) |
 | | X | | - Sprawdzanie poprawności algorytmów |
 | **II. Programowanie i rozwiązywanie problemów** | X | | - Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
 | | | | - Dobór środowisk informatycznych i aplikacji |
@@ -51,7 +52,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 | | X | ✓ | - Rozumienie reprezentacji danych w komputerze |
 | | X | ✓ | - Wykonywanie działań arytmetycznych i logicznych |
 | | X | | - Rozumienie źródeł błędów obliczeniowych |
-| | X | | - Znajomość metod myślenia komputacyjnego |
+| | X | ✓ | - Znajomość metod myślenia komputacyjnego (dekompozycja, abstrakcja, rozpoznawanie wzorców) |
 | **II. Programowanie i rozwiązywanie problemów** | X | | - Tworzenie rozbudowanych programów ze strukturami dynamicznymi |
 | | X | | - Stosowanie programowania strukturalnego i obiektowego |
 | | X | | - Zaawansowana praca w środowisku programistycznym |
