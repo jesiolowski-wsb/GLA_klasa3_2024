@@ -6,7 +6,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 | Obszar | Istotne na maturze | Zrealizowane | Wymagania szczegółowe |
 |--------|:------------------:|:------------:|----------------------|
 | **I. Rozumienie, analizowanie i rozwiązywanie problemów** | X | ✓ | - Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego) |
-| | X | | - Stosowanie algorytmów na liczbach (badanie pierwszości) |
+| | X | | - Stosowanie algorytmów na liczbach (badanie pierwszości: metoda naiwna i zoptymalizowana) |
 | | X | ✓ | - Stosowanie algorytmów na liczbach (zamiana systemów liczbowych) |
 | | X | | - Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
 | | X | | - Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną, szyfrowanie) |
@@ -61,7 +61,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 | | | | - Programowanie elementów stron WWW z bazą danych |
 | **Algorytmy - część rozszerzona** | X | | - Algorytm Euklidesa (iteracyjnie i rekurencyjnie) |
 | | X | | - Znajdowanie elementów w zbiorze (lider, idol, wyszukiwanie binarne) |
-| | X | ✓ | - Sito Eratostenesa |
+| | X | ✓ | badanie pierwszości v2: - Sito Eratostenesa |
 | | X | ✓ | - Jednoczesne znajdowanie min/max |
 | | X | | - Sortowanie przez scalanie |
 | | X | | - Metoda połowienia dla miejsc zerowych |
