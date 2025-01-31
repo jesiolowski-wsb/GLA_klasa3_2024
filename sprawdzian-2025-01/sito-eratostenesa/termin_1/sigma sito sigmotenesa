@@ -1,0 +1,65 @@
+from math import sqrt
+import time
+
+j=0
+h=0
+def sito_pelne(n):
+  h = 0
+  lista_liczb = []
+  lista = [0] + (n * [1])
+  literacji1 = 0
+  start_time1 = time.time()
+  for i in range(2,n+1):
+   literacji1=literacji1 +1
+   if lista[i]:
+    for k in range(i*i,n+1,i):
+     h=h+1
+     lista[k] = 0
+  for element in range(2,n+1):
+   if lista[element]:
+    h=h+1
+    lista_liczb.append(element)
+  czas1 = time.time() - start_time1
+  print("proste\nliczba operacji :", h, "liczba iteracji: ", literacji1, "czas :", czas1)
+
+sito_pelne(100000000)
+
+def sito_optymalne(n):
+  j = 0
+  lista_liczb = []
+  literacji2 = 0
+  lista = [0] + (n * [1])
+  max_liczba = int(sqrt(n))
+  start_time2 = time.time()
+  for indeks in range(2,max_liczba+1):
+   literacji2=literacji2+1
+   if lista[indeks]:
+    for indeks_2 in range(indeks*indeks,n+1,indeks):
+     j=j+1
+     lista[indeks_2] = 0
+  for element in range(2,n+1):
+   if lista[element]:
+    j=j+1
+    lista_liczb.append(element)
+  czas2 = time.time() - start_time2
+
+  print("Optymalna\nliczba operacji :",j,"liczba iteracji: ",literacji2,"czas :",czas2)
+sito_optymalne(100000000)
+def porownaj_wydajnosc(n):
+ print(f"Porównanie wydajności dla n = {n}")
+ print("-" * 50)
+
+ wyniki_pelne = sito_pelne(n)
+ wyniki_optymalne = sito_optymalne(n)
+
+ print(f"{'Wersja':<15} {'Iteracje':<12} {'Operacje':<12} {'Czas':<8}")
+ print("-" * 50)
+ print(f"{'Pełna':<15} {wyniki_pelne[1]:<12} {wyniki_pelne[2]:<12} {wyniki_pelne[3]:.4f}s")
+ print(f"{'Optymalna':<15} {wyniki_optymalne[1]:<12} {wyniki_optymalne[2]:<12} {wyniki_optymalne[3]:.4f}s")
+
+ roznica_iteracji = ((wyniki_pelne[1] - wyniki_optymalne[1]) / wyniki_pelne[1]) * 100
+ print(f"\nOptymalizacja zmniejszyła liczbę iteracji o {roznica_iteracji:.2f}%")
+
+# Test
+porownaj_wydajnosc(1000000)
+#sito optymalne ma znacznie mniej iteracji(mniej razy powtarza pentle) dla trgo jest szybsze pomimo tych samych wyników)
