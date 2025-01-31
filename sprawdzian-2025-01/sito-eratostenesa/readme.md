@@ -31,6 +31,17 @@ Przykład dla wierszy = 4 i kolumn = 6:
 ******
 ```
 
+#### Rozwiązanie:
+```python
+wiersze = int(input("Podaj liczbę wierszy: "))
+kolumny = int(input("Podaj liczbę kolumn: "))
+
+for i in range(wiersze):
+    for j in range(kolumny):
+        print("*", end="")  # Nie przechodzimy do nowej linii po każdej gwiazdce
+    print()  # Przejście do nowej linii po każdej iteracji wiersza
+```
+
 ### Zadanie 3: Liczby pierwsze w prostokącie
 Napisz program, który wypisuje prostokąt z liczb, gdzie każda liczba to suma wiersza i kolumny.
 Przykład dla wierszy = 4 i kolumn = 5:
@@ -49,4 +60,31 @@ Ulepsz program, aby otoczył liczby pierwsze nawiasami kwadratowymi.
 1  [2] [3] 4  [5]
 [2] [3] 4  [5] 6
 [3] 4  [5] 6  7
+```
+
+#### Rozwiązanie:
+```python
+# Funkcja sprawdzająca, czy liczba jest pierwsza
+def czy_pierwsza(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+    # for i in range(2, n + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Prostokąt liczb
+wiersze = int(input("Podaj liczbę wierszy: "))
+kolumny = int(input("Podaj liczbę kolumn: "))
+
+for i in range(wiersze):
+    for j in range(kolumny):
+        liczba = i + j
+        if czy_pierwsza(liczba):
+            print(f"[{liczba}]", end=" ")  # Liczby pierwsze w nawiasach
+        else:
+            print(f" {liczba} ", end=" ")  # Pozostałe liczby
+    print()  # Przejście do nowej linii po każdym wierszu
+
 ```
