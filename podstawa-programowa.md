@@ -25,7 +25,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
 
 | Temat | Zrealizowane | Wymagania szczegółowe |
 |-------|:------------:|----------------------|
-| **I. Zaawansowane algorytmy i struktury danych** | | Stosowanie metody wstępującej i zstępującej |
+| **I. Zaawansowane algorytmy i struktury danych** | | Stosowanie metody wstępującej i zstępującej (top-down / bottom-up) |
 | | ✓ | Dobór odpowiednich struktur danych |
 | | | Ocena poprawności i efektywności algorytmów |
 | | | Wykorzystanie pojęć matematycznych (w tym logarytmów) |
