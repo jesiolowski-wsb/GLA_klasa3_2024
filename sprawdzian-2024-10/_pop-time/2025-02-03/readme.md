@@ -6,13 +6,12 @@
 > [!NOTE]
 > - Dla każdego rozwiązania poproszę osobny plik, tj struktura odpowiedzi powinna wyglądać tak:
 > ```
-> \sprawdzian-2024-10\
->                    \_pop-final\
->                              \jak-kowalski\
->                                           \zad1.py
->                                           \zad2.py
->                                           \zad3.py
->                                           \zad4.py
+> \sprawdzian-2024-10\_pop-time\2025-02-03\
+>                                         \jak-kowalski\
+>                                                      \zad1.py
+>                                                      \zad2.py
+>                                                      \zad3.py
+>                                                      \zad4.py
 > ```
 > - Oceniane będą: poprawność działania, styl kodu oraz efektywność rozwiązania
 
