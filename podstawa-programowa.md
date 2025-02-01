@@ -1,5 +1,5 @@
-# Materiał do matury z informatyki
-bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka
+# Przefiltrowany zakres 'podstawy programowej' wymagany do podejścia do matury z informatyki
+bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunięte rzeczy nie dotykające bezpośrednio matury
 
 ## Zakres Podstawowy
 
