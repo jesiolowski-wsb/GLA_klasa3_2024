@@ -22,16 +22,28 @@ def alarm_przeciwpozarowy(dymu, temp):
     elif dymu != temp:
         return True
 
-# # def staus(): (PROBOWALAM ZADANIE 2)
-#     wykrywanie = True
-#     bezpieczenstwo = False
-#     wykryj_awaryjne = True
-#     glowny = True
-#     awaryjny = False
-#     statusy = {
-#         "Alarm"
-#     }
+def stan_systemu():
+    ruch = True
+    glowny = True
+    awaryjny = False
+    status = True
+    dymu = False
+    temp = True
 
+    ruch_znaleziony = wykrywanie(ruch, False)
+    zamkniete = bezpieczenstwo(glowny, awaryjny)
+    awaria = wykryj_awaryjne(status)
+    pozar = alarm_przeciwpozarowy(dymu, temp)
+
+    tabela = [
+        ["Czujnik ruchu", ruch_znaleziony],
+        ["Drzwi bezpieczne", zamkniete],
+        ["Awaria systemu" , awaria],
+        ["Alarm przeciwpozarowy", pozar]
+    ]
+    print(tabela, ["Modul", "Stan"], end = " ")
+    print("\n")
+stan_systemu()
 
 print(int(wykrywanie(0,0)), "brak ruchu")
 print(int(wykrywanie(0,1)), "wykryto ruch!")
