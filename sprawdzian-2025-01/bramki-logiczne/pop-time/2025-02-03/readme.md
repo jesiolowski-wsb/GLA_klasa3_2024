@@ -22,9 +22,70 @@ print(f"Tylko dym: {alarm_przeciwpozarowy(True, False)}")      # True
 print(f"Dym i temperatura: {alarm_przeciwpozarowy(True, True)}") # False (możliwa awaria czujników)
 ```
 
+### Rozwiązanie
+
+```python
+def czujnik_ruchu(czujnik1, czujnik2):
+    """
+    Implementacja bramki OR - alarm gdy którykolwiek czujnik wykryje ruch
+    """
+    return czujnik1 or czujnik2
+
+def drzwi_bezpieczne(zamek_glowny, zamek_awaryjny):
+    """
+    Implementacja bramki AND - bezpieczne tylko gdy oba zamki działają
+    """
+    return zamek_glowny and zamek_awaryjny
+
+def wykryj_awarie(status_systemu):
+    """
+    Implementacja bramki NOT - True gdy system nie działa
+    """
+    return not status_systemu
+
+def alarm_przeciwpozarowy(czujnik_dymu, czujnik_temperatury):
+    """
+    Implementacja bramki XOR - alarm gdy tylko jeden czujnik wykryje zagrożenie
+    """
+    return (czujnik_dymu or czujnik_temperatury) and not (czujnik_dymu and czujnik_temperatury)
+
+# Testy podstawowych modułów:
+print("=== Testy podstawowych modułów ===")
+print("\nTest czujnika ruchu:")
+print(f"Oba nieaktywne: {czujnik_ruchu(False, False)}")        # False
+print(f"Jeden aktywny: {czujnik_ruchu(True, False)}")          # True
+print(f"Oba aktywne: {czujnik_ruchu(True, True)}")            # True
+
+print("\nTest zabezpieczenia drzwi:")
+print(f"Oba zamki aktywne: {drzwi_bezpieczne(True, True)}")    # True
+print(f"Jeden zamek aktywny: {drzwi_bezpieczne(True, False)}") # False
+
+print("\nTest systemu przeciwpożarowego:")
+print(f"Tylko dym: {alarm_przeciwpozarowy(True, False)}")       # True
+print(f"Oba czujniki: {alarm_przeciwpozarowy(True, True)}")     # False
+```
+
 ## Zadanie 2: Panel kontrolny (6 punktów)
 Napisz funkcję `wyswietl_stan_systemu()`, która pokaże działanie wszystkich modułów bezpieczeństwa w formie tabeli:
 
+### Rozwiązanie
+
+```python
+def wyswietl_stan_systemu():
+    print("Czujnik1  Czujnik2  Ruch   Bezp.  AwariaSys  Ppoż")
+    print("-" * 55)
+    
+    for a in [False, True]:
+        for b in [False, True]:
+            print(f"{int(a):<9} {int(b):<9}", end=" ")
+            print(f"{int(czujnik_ruchu(a,b)):<7}", end=" ")
+            print(f"{int(drzwi_bezpieczne(a,b)):<7}", end=" ")
+            print(f"{int(wykryj_awarie(a)):<9}", end=" ")
+            print(f"{int(alarm_przeciwpozarowy(a,b))}")
+
+# Wywołanie:
+wyswietl_stan_systemu()
+```
 
 ## Zadanie 3: Inteligentny system antywłamaniowy (8 punktów)
 
@@ -56,6 +117,35 @@ Ruch  Wibracje  Otwarte  ALARM
 1     0         1        0
 1     1         0        0
 1     1         1        1
+```
+
+### Rozwiązanie
+
+```python
+def wykryj_wlamanie(ruch, wibracje, godziny_otwarcia):
+    """
+    Implementacja złożonego systemu antywłamaniowego
+    """
+    wykryto_zagrozenie = ruch and wibracje  # AND - oba czujniki muszą być aktywne
+    status_muzeum = not godziny_otwarcia    # NOT - muzeum zamknięte
+    return wykryto_zagrozenie ^ status_muzeum  # XOR - ale nie oba na raz (możliwa awaria)
+
+def test_systemu_antywlamanowego():
+    """
+    Testuje wszystkie możliwe kombinacje wejść systemu antywłamaniowego
+    """
+    print("\n=== Test systemu antywłamaniowego ===")
+    print("Ruch  Wibracje  Otwarte  ALARM")
+    print("-" * 32)
+    
+    for ruch in [False, True]:
+        for wibracje in [False, True]:
+            for otwarte in [False, True]:
+                alarm = wykryj_wlamanie(ruch, wibracje, otwarte)
+                print(f"{int(ruch):<5} {int(wibracje):<9} {int(otwarte):<8} {int(alarm)}")
+
+# Test systemu antywłamaniowego
+test_systemu_antywlamanowego()
 ```
 
 ## Kryteria oceny:
