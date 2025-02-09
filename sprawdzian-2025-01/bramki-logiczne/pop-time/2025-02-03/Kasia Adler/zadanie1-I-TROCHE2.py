@@ -1,16 +1,25 @@
+# zdobyte punkty: 15/20
+
+# zad1
+# zdobyte punkty: 5/6
 def wykrywanie(czujnik1,czujnik2):
+    # niepotrzebne użycie wartości 1 zamiast boolowego True/False, ale działa
+    # można by napisać po prostu `return czujnik1 or czujnik2`
     if czujnik1 == 1 or czujnik2 == 1:
         return True
     else:
         return False
 
 def bezpieczenstwo(glowny, awaryjny):
+    # niepotrzebne użycie wartości 1 zamiast boolowego True/False, ale działa
+    # można by napisać po prostu `return czujnik1 and czujnik2`
     if glowny == 1 and awaryjny == 1:
         return True
     else:
         return False
 
 def wykryj_awaryjne(status):
+    # można prościej, wystarczyłoby `return not status`
     if status == True:
         return False
     else:
@@ -19,9 +28,16 @@ def wykryj_awaryjne(status):
 def alarm_przeciwpozarowy(dymu, temp):
     if dymu == temp:
         return False
+    # zbędny elif, wystarczyłby else
     elif dymu != temp:
         return True
 
+
+# zad2
+# zdobyte punkty: 4/6
+
+# Format wyświetlania nie jest tabelaryczny
+# Brak wszystkich możliwych kombinacji wejść
 def stan_systemu():
     ruch = True
     glowny = True
