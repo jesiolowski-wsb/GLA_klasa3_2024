@@ -1,4 +1,7 @@
+# zad3
+# zdobyte punkty: 6/8
 def wykryj_wlamanie(ruch, wibracje, godziny_otwarcia):
+    # logika niezgodna z wymaganiami zadania tj zabrakło implementacji XOR
     return (ruch or wibracje) and not godziny_otwarcia
 
 dane_testowe = [
