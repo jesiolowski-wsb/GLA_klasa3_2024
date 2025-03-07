@@ -20,6 +20,8 @@ def czy_ruch_wykonalny(current_x, current_y, chosen_x, chosen_y):
 def can_travel_to(gameMatrix,current_x,current_y,chosen_x,chosen_y):
     if czy_ruch_wykonalny(current_x,current_y,chosen_x,chosen_y)==True or None:
         return gameMatrix[chosen_y][chosen_x]
+    if gameMatrix[current_y][current_x]==False:
+        return False
     else:
         return False
 
@@ -28,3 +30,5 @@ print(can_travel_to(gameMatrix, 3, 2, 3, 4)) # False, nie można przepłynąć p
 print(can_travel_to(gameMatrix, 3, 2, 3, 3)) # False, nie można przepłynąć przez ląd
 print(can_travel_to(gameMatrix, 3, 2, 3, 5)) # False, nie można przepłynąć przez ląd + zbyt daleko
 print(can_travel_to(gameMatrix, 3, 2, 6, 2)) # False, poza dopuszczalnym zakresem
+print()
+print(can_travel_to(gameMatrix, 3, 2, 20, 16))
