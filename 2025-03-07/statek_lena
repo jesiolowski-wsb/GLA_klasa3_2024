@@ -13,15 +13,15 @@ def czy_ruch_wykonalny(current_x, current_y, chosen_x, chosen_y):
         return (chosen_x-current_x==2) or (chosen_x-current_x==-1)
     elif current_x==current_y:
         return abs(current_y-chosen_y)==1
+    else: return False
 
 
 
 def can_travel_to(gameMatrix,current_x,current_y,chosen_x,chosen_y):
     if czy_ruch_wykonalny(current_x,current_y,chosen_x,chosen_y)==True or None:
-        if gameMatrix[chosen_x][chosen_y]:
-            return True
-        else:
-            return False
+        return gameMatrix[chosen_x][chosen_y]
+    else:
+        return False
 
 print(can_travel_to(gameMatrix, 3, 2, 2, 2)) # True, ruch jest dopuszczalny
 print(can_travel_to(gameMatrix, 3, 2, 3, 4)) # False, nie można przepłynąć przez ląd
