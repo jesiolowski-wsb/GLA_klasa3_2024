@@ -1,10 +1,11 @@
+## Walidacja ruchu postaci na planszy (gra turowa)
 <div><p>Hipotetyczna gra turowa ze statkiem poruszającym się w określony sposób. Siatka / plansza zawiera wartości <em>True</em> jeśli na pozycji znajduje się woda oraz <em>False</em> jeśli na pozycji znajduje się suchy ląd.</p>
 <p>Gracz kontroluje łódź w ściśle określonny sposób. Jednostka może poruszać się po planszy jedynie po linii prostej i o określoną ilość pól (w zależności od kierunku w którym obecnie zwraca się dziób łodzi)</p>
 <p>
 <img width="297" alt="image" src="https://github.com/jesiolowski-wsb/GLA_klasa3_2023/assets/67168776/7968d6d7-650f-4148-9157-04ace31a433b">
 
 </p>
-<p>Jako że jednostka może poruszać się tylko po wodzie, przeszkoda typu wysepka / inna wariacja nt. suchego lądu blokuje możliwośc poruszania się - statek nie może się tam przemieścić.</p>
+<p>Jednostka może poruszać się tylko po wodzie, tak więc przeszkoda typu wysepka / inna wariacja nt. suchego lądu blokuje możliwośc poruszania się - statek nie może się tam przemieścić.</p>
 <p>Stwórz funkcję <em>can_travel_to</em>, która będzie sprawdzać czy cel podróży łodzi jest dla gracza osiągalny. Funkcja powinna zwracać <em>True </em>dla celów osiągalnych w oparciu o wzorzec przemieszczania się, oraz <em>False </em>dla pól nieosiągalnych / zablokowanych / poza zakresem poruszania się / poza planszą</p>
 <p>Jako przykład, kod poniżej:</p>
 <pre><code class="language-python hljs">gameMatrix = [
