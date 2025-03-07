@@ -29,4 +29,4 @@
 </p></div>
 
 
-Odpowiedzi jak zwykle poproszę wrzucić do bieżącego folderu jako pliki nazwane imieniem i nazwiskiem
+Odpowiedzi poproszę wrzucić do bieżącego folderu jako pliki nazwane imieniem i nazwiskiem
