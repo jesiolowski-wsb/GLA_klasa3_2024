@@ -31,4 +31,4 @@ print(can_travel_to(gameMatrix, 3, 2, 3, 3)) # False, nie można przepłynąć p
 print(can_travel_to(gameMatrix, 3, 2, 3, 5)) # False, nie można przepłynąć przez ląd + zbyt daleko
 print(can_travel_to(gameMatrix, 3, 2, 6, 2)) # False, poza dopuszczalnym zakresem
 print()
-print(can_travel_to(gameMatrix, 3, 2, 20, 16))
+print(can_travel_to(gameMatrix, 3, 2, 20, 16)) #sprawdzalam co sie dzieje poza plansza
