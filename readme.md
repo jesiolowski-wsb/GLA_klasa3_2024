@@ -27,13 +27,13 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 9 (sem. I) | algorytm “dziel i zwyciężaj”                                                                                               |    Ula                    |        24.01.2025                 |             |
 |   | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                    |                           |                                  |             |
 | 6 (sem. I) | bramki logiczne                                                                                                            |   Karol                   |        8.11.2024                 |             |
-|   | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |                           |                                  |             |
+|  Kasia | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |                           |                                  |             |
 | 7 (sem. I) | generowanie liczb pierwszych metodą sita Eratostenesa                                                                      |   Kuba                    |        15.11.2024                |             |
 | 8 (sem. I) | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                      |   Witek                   |        22.11.2024                |             |
 |   | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania |                           |                                  |             |
-|   | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                  |                           |                                  |             |
+| Ula  | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                  |                           |                                  |             |
 |   | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                          |                           |                                  |             |
-|   | bibioteka matplotlib na przykladzie drzewa binarnego                                                                       |                           |                                  |             |
+|  Michał | bibioteka matplotlib na przykladzie drzewa binarnego                                                                       |                           |                                  |             |
 
 
 
