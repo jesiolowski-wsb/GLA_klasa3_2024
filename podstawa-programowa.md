@@ -25,7 +25,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 
 | Temat | Zrealizowane | Wymagania szczegółowe |
 |-------|:------------:|----------------------|
-| **I. Zaawansowane algorytmy i struktury danych** | | Stosowanie metody wstępującej i zstępującej (top-down / bottom-up) |
+| **I. Zaawansowane algorytmy i struktury danych** | ✓ | Stosowanie metody wstępującej i zstępującej (top-down / bottom-up) |
 | | ✓ | Dobór odpowiednich struktur danych |
 | | | Ocena poprawności i efektywności algorytmów |
 | | | Wykorzystanie pojęć matematycznych (w tym logarytmów) |
@@ -49,6 +49,6 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Działania na punktach i odcinkach |
 | | | Fraktale rekurencyjne |
 | | | Kryptografia i podpis elektroniczny |
-| **PODSUMOWANIE** | 22 elementy | 7 zrealizowane **(32%)** |
+| **PODSUMOWANIE** | 22 elementy | 7 zrealizowane **(36%)** |
 
 _Uwaga: Tabela zawiera tylko elementy istotne z punktu widzenia matury. W kolumnie "Zrealizowane" symbol ✓ oznacza tematy już omówione na zajęciach._
