@@ -1,4 +1,4 @@
-## 1
+## 1.
 Napisz program (lub programy), który dla tablicy wyrazów znajdzie najdłuższy i najkrótszy wyraz. 
 
 Jeśli w tablicy występuje więcej niż jeden wyraz o jednakowej długości, to odpowiedź
