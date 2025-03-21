@@ -17,12 +17,31 @@ Innymi słowy algorytm zachłanny nie dokonuje oceny czy w kolejnych krokach jes
 
 ### Implementacja w Pythonie
 ```python
+def wydaj_reszte(kwota, nominaly):
+    # Sortujemy nominały malejąco
+    nominaly.sort(reverse=True)
+    wydane_monety = {}
+
+    # Dla każdego nominału
+    for nominal in nominaly:
+        # Ile razy możemy użyć danego nominału
+        ilosc = kwota // nominal
+
+        if ilosc > 0:
+            wydane_monety[nominal] = ilosc
+            kwota -= nominal * ilosc
+
+    return wydane_monety
 
 
 # Przykład użycia
 nominaly = [1, 2, 5, 10, 20, 50, 100, 200, 500]
 kwota = 237
 wynik = wydaj_reszte(kwota, nominaly)
+
+print(f"Reszta {kwota} zł:")
+for nominal, ilosc in wynik.items():
+    print(f"{ilosc} x {nominal} zł")
 ...
 ```
 
