@@ -49,6 +49,6 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Działania na punktach i odcinkach |
 | | | Fraktale rekurencyjne |
 | | | Kryptografia i podpis elektroniczny |
-| **PODSUMOWANIE** | 22 elementy | 7 zrealizowane **(36%)** |
+| **PODSUMOWANIE** | 22 elementy | 7 zrealizowanych **(36%)** |
 
 _Uwaga: Tabela zawiera tylko elementy istotne z punktu widzenia matury. W kolumnie "Zrealizowane" symbol ✓ oznacza tematy już omówione na zajęciach._
