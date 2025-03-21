@@ -38,5 +38,27 @@ Podejście 'zachłane' nie zawsze jest optymalne tj. ma swoje ograniczenia, wart
 
 ### Implementacja w Pythonie
 ```python
-...
+def min_liczba_monet_dp(kwota, nominaly):
+    dp = [kwota + 1] * (kwota + 1)
+    dp[0] = 0  # Do wydania 0 potrzeba 0 monet
+
+    wybrane_monety = [[] for _ in range(kwota + 1)]
+
+    for i in range(1, kwota + 1):
+        for nominal in nominaly:
+            if nominal <= i and dp[i - nominal] + 1 < dp[i]:
+                dp[i] = dp[i - nominal] + 1
+                wybrane_monety[i] = wybrane_monety[i - nominal].copy()
+                wybrane_monety[i].append(nominal)
+
+    return dp[kwota], wybrane_monety[kwota]
+
+
+# Przykład użycia
+nominaly = [1, 3, 4]
+kwota = 6
+min_monet, wybrane = min_liczba_monet_dp(kwota, nominaly)
+
+print(f"Minimalna liczba monet dla kwoty {kwota}: {min_monet}")
+print(f"Wybrane monety: {wybrane}")
 ```
