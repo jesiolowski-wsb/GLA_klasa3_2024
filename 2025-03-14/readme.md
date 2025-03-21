@@ -1,3 +1,5 @@
+# UWAGA: nie wolno sortować danych wejściowych!
+
 ## 1.
 Napisz program (lub programy), który dla tablicy wyrazów znajdzie najdłuższy i najkrótszy wyraz. 
 
