@@ -40,7 +40,7 @@ Podejście 'zachłane' nie zawsze jest optymalne tj. ma swoje ograniczenia, wart
 ```python
 def min_liczba_monet_dp(kwota, nominaly):
     dp = [kwota + 1] * (kwota + 1)
-    dp[0] = 0  # Do wydania 0 potrzeba 0 monet
+    dp[0] = 0
 
     wybrane_monety = [[] for _ in range(kwota + 1)]
 
