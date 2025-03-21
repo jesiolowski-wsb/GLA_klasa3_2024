@@ -17,6 +17,12 @@ Innymi słowy algorytm zachłanny nie dokonuje oceny czy w kolejnych krokach jes
 
 ### Implementacja w Pythonie
 ```python
+
+
+# Przykład użycia
+nominaly = [1, 2, 5, 10, 20, 50, 100, 200, 500]
+kwota = 237
+wynik = wydaj_reszte(kwota, nominaly)
 ...
 ```
 
