@@ -1,6 +1,6 @@
 # GLA klasa 3 (rok 2024) - informatyka rozszerzona 
-Wrzucajcie proszę swoje zmiany do katalogu z pasującą nazwą - zobaczymy jak to będzie działać (jeśli taka forma się nie sprawdzi, będziemy ją zmieniać)
-Poproszę o odpowiedzi w plikach o nazwie **nazwisko_imie.py** 
+Wrzucajcie proszę swoje zmiany do katalogów z pasującą nazwą / datą
+Odpowiedzi do pytań poproszę w plikach o nazwie **nazwisko_imie.py** (z rozszerzeniem **.py** ) 🐍🐍🐍
 
 i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 
@@ -23,17 +23,17 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 
 | kolejność    | Temat                                                                                                                      | Kto                       | kiedy                            | prezentacja |
 | :---:        | :----------------                                                                                                          | :------:                  | :----:                           | :-----:     |
-| 1 📦 | pseudokod oraz Rekurencja w programowaniu                                                                                    |   Kasia                   | 20.09.2024                       |             |
-| 2 📦 | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)|    Milena  |  27.09.2024     |             |
-| 5 📦 | List comprehensions – zwięzły sposób tworzenia list.                                                                         |   Julia                   |        18.10.2024                |             |
-| 3 📦 | systemy liczbowe i konwertowanie między systemami                                                                            |   Michał                  |        4.10.2024                 |  [onedrive](https://1drv.ms/p/s!Ahvhmcr-0MY8a0kMlTxvv3C9EAM?e=1avMFs)           |   
-| 4 📦 | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                                         |   Lena                    |        11.10.2024                |  [canva](https://www.canva.com/design/DAGTFwjdFis/etFXKeiS_rPjNesLSUrepw/view?utm_content=DAGTFwjdFis&utm_campaign=designshare&utm_medium=link&utm_source=editor)           |
-| 9 📦 | algorytm “dziel i zwyciężaj”                                                                                                 |    Ula                    |        24.01.2025                |             |
+| 📦 | pseudokod oraz Rekurencja w programowaniu                                                                                    |   Kasia                   | 20.09.2024                       |             |
+| 📦 | obsługa plików w pythonie (otwieranie, odczytywanie i zapis danych do plików tekstowych) oraz struktury danych w pythonie (listy, krotki, słowniki, zbiory)|    Milena  |  27.09.2024     |             |
+| 📦 | List comprehensions – zwięzły sposób tworzenia list.                                                                         |   Julia                   |        18.10.2024                |             |
+| 📦 | systemy liczbowe i konwertowanie między systemami                                                                            |   Michał                  |        4.10.2024                 |  [onedrive](https://1drv.ms/p/s!Ahvhmcr-0MY8a0kMlTxvv3C9EAM?e=1avMFs)           |   
+| 📦 | sortowanie przez scalanie (merge sort), szybkie (quickSort), binarne (binary search)                                         |   Lena                    |        11.10.2024                |  [canva](https://www.canva.com/design/DAGTFwjdFis/etFXKeiS_rPjNesLSUrepw/view?utm_content=DAGTFwjdFis&utm_campaign=designshare&utm_medium=link&utm_source=editor)           |
+| 📦 | algorytm “dziel i zwyciężaj”                                                                                                 |    Ula                    |        24.01.2025                |             |
 | 📌 | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                      |         Kuba              |                                  |             |
-| 6 📦 | bramki logiczne                                                                                                              |   Karol                   |        8.11.2024                 |             |
-| 1 📌 | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                                |   Kasia                   |        4.04.2025                 |             |
-| 7 📦 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                        |   Kuba                    |        15.11.2024                |             |
-| 8 📦 | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                        |   Witek                   |        22.11.2024                |             |
+| 📦 | bramki logiczne                                                                                                              |   Karol                   |        8.11.2024                 |             |
+| 1 📌 | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |   Kasia                   |        4.04.2025👆               |             |
+| 📦 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                        |   Kuba                    |        15.11.2024                |             |
+| 📦 | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                        |   Witek                   |        22.11.2024                |             |
 | 📌 | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania   |   Lena                    |                                  |             |
 | 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |                                  |             |
 | 📌 | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                                     |                           |                                  |             |
