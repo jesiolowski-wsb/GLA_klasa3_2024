@@ -54,6 +54,7 @@ for nominal, ilosc in wynik.items():
 
 ## Programowanie dymaniczne
 Podejście 'zachłane' nie zawsze jest optymalne tj. ma swoje ograniczenia, warto więc zrobić krok wstecz i wrócić do idei dzielenia dużego problemu na małe tj. przypomnij sobie różnicę w podejściu top-down (zstępujące) i bottom-up (wstępujące)
+
 Spróbuj zrozumieć algorytm poniżej wyciągając wnioski
 
 ### Implementacja w Pythonie
