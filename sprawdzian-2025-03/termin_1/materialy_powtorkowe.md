@@ -117,7 +117,7 @@ print(czy_na_planszy(plansza, 1, 2))  # Wynik: True
 print(czy_na_planszy(plansza, 3, 2))  # Wynik: False
 ```
 
-### Zadanie 3.3: Sprawdzenie sąsiadów
+### Zadanie 3.2: Sprawdzenie sąsiadów
 Napisz funkcję, która zwraca listę dozwolonych sąsiadów danego pola.
 
 ```python
