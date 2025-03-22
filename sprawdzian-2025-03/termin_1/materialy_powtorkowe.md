@@ -228,7 +228,7 @@ for cyfra, ilosc in sorted(wynik.items()):
 2. **Operacje na stringach**:
    - Używaj slicingu (`tekst[start:stop:step]`) do pobierania części stringów
    - Pamiętaj o metodach `.isupper()`, `.islower()`, `.upper()`, `.lower()`
-   - Funkcja `sum()` z wyrażeniem generatorowym jest przydatna do zliczania znaków
+   - Funkcja `sum()` z wyrażeniem generatorowym jest przydatna do zliczania znaków (inne użyteczne to np `all()`)
 
 3. **Algorytm wydawania reszty**:
    - Sortuj nominały od największego do najmniejszego (`sorted(nominaly, reverse=True)`)
