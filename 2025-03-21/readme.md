@@ -17,6 +17,31 @@ Innymi słowy algorytm zachłanny nie dokonuje oceny czy w kolejnych krokach jes
 
 ### Implementacja w Pythonie
 ```python
+def wydaj_reszte(kwota, nominaly):
+    # Sortujemy nominały malejąco
+    nominaly.sort(reverse=True)
+    wydane_monety = {}
+
+    # Dla każdego nominału
+    for nominal in nominaly:
+        # Ile razy możemy użyć danego nominału
+        ilosc = kwota // nominal
+
+        if ilosc > 0:
+            wydane_monety[nominal] = ilosc
+            kwota -= nominal * ilosc
+
+    return wydane_monety
+
+
+# Przykład użycia
+nominaly = [1, 2, 5, 10, 20, 50, 100, 200, 500]
+kwota = 237
+wynik = wydaj_reszte(kwota, nominaly)
+
+print(f"Reszta {kwota} zł:")
+for nominal, ilosc in wynik.items():
+    print(f"{ilosc} x {nominal} zł")
 ...
 ```
 
@@ -30,7 +55,31 @@ Innymi słowy algorytm zachłanny nie dokonuje oceny czy w kolejnych krokach jes
 ## Programowanie dymaniczne
 Podejście 'zachłane' nie zawsze jest optymalne tj. ma swoje ograniczenia, warto więc zrobić krok wstecz i wrócić do idei dzielenia dużego problemu na małe tj. przypomnij sobie różnicę w podejściu top-down (zstępujące) i bottom-up (wstępujące)
 
+Spróbuj zrozumieć algorytm poniżej wyciągając wnioski
+
 ### Implementacja w Pythonie
 ```python
-...
+def min_liczba_monet_dp(kwota, nominaly):
+    dp = [kwota + 1] * (kwota + 1)
+    dp[0] = 0
+
+    wybrane_monety = [[] for _ in range(kwota + 1)]
+
+    for i in range(1, kwota + 1):
+        for nominal in nominaly:
+            if nominal <= i and dp[i - nominal] + 1 < dp[i]:
+                dp[i] = dp[i - nominal] + 1
+                wybrane_monety[i] = wybrane_monety[i - nominal].copy()
+                wybrane_monety[i].append(nominal)
+
+    return dp[kwota], wybrane_monety[kwota]
+
+
+# Przykład użycia
+nominaly = [1, 3, 4]
+kwota = 6
+min_monet, wybrane = min_liczba_monet_dp(kwota, nominaly)
+
+print(f"Minimalna liczba monet dla kwoty {kwota}: {min_monet}")
+print(f"Wybrane monety: {wybrane}")
 ```

@@ -12,14 +12,14 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | ✓ | Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną) |
 | | | Algorytmy na tekstach (szyfrowanie np. cezara) |
 | | | Algorytmy sortowania (wstawianie, bąbelkowe) |
-| | | Algorytm wydawania reszty |
+| | ✓ | Algorytm wydawania reszty |
 | | | Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
 | | | Wyróżnianie podproblemów (metoda połowienia, podejście zachłanne, rekurencja) |
 | | | Porównywanie algorytmów (złożoność obliczeniowa) |
 | | ✓ | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
 | | | Praca z arkuszem kalkulacyjnym (funkcje, filtrowanie, wykresy) |
 | | | Praca z bazami danych (min. dwie tabele, relacje, kwerendy) |
-| **PODSUMOWANIE** | 14 elementów | 4 zrealizowane (**28%**) |
+| **PODSUMOWANIE** | 14 elementów | 5 zrealizowanych (**35%**) |
 
 ## Zakres Rozszerzony
 
@@ -49,6 +49,6 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Działania na punktach i odcinkach |
 | | | Fraktale rekurencyjne |
 | | | Kryptografia i podpis elektroniczny |
-| **PODSUMOWANIE** | 22 elementy | 7 zrealizowane **(36%)** |
+| **PODSUMOWANIE** | 22 elementy | 7 zrealizowanych **(36%)** |
 
 _Uwaga: Tabela zawiera tylko elementy istotne z punktu widzenia matury. W kolumnie "Zrealizowane" symbol ✓ oznacza tematy już omówione na zajęciach._
