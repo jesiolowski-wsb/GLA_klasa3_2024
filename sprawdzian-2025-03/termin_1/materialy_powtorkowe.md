@@ -222,8 +222,8 @@ for cyfra, ilosc in sorted(wynik.items()):
 
 1. **Operacje na plikach**:
    - Zawsze używaj konstrukcji `with open(...) as plik:` dla bezpiecznego otwarcia i zamknięcia pliku
-   - Pamiętaj o obsłudze błędów (np. FileNotFoundError)
-   - Używaj odpowiednich trybów (`'r'` dla odczytu, `'w'` dla zapisu)
+   - Pamiętaj o możliwości obsługi błędów poprzez try-except (np. FileNotFoundError)
+   - Używaj odpowiednich trybów (`'r'` dla odczytu, `'w'` dla zapisu gdzie `'r'` jest trybem domyślnym)
 
 2. **Operacje na stringach**:
    - Używaj slicingu (`tekst[start:stop:step]`) do pobierania części stringów
