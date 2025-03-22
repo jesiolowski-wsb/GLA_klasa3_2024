@@ -100,24 +100,7 @@ print(wydaj_reszte_uproszczona(63, nominaly))  # Wynik: {25: 2, 10: 1, 1: 3}
 
 ## 3. Operacje na planszy
 
-### Zadanie 3.1: Inicjalizacja planszy
-Napisz funkcję, która inicjalizuje planszę o podanych wymiarach.
-
-```python
-def stworz_plansze(wysokosc, szerokosc, wartosc_domyslna=0):
-    return [[wartosc_domyslna for _ in range(szerokosc)] for _ in range(wysokosc)]
-
-# Przykład:
-plansza = stworz_plansze(3, 4)
-for wiersz in plansza:
-    print(wiersz)
-# Wynik:
-# [0, 0, 0, 0]
-# [0, 0, 0, 0]
-# [0, 0, 0, 0]
-```
-
-### Zadanie 3.2: Sprawdzenie granic planszy
+### Zadanie 3.1: Sprawdzenie granic planszy
 Napisz funkcję, która sprawdza, czy dane współrzędne znajdują się na planszy.
 
 ```python
@@ -125,7 +108,11 @@ def czy_na_planszy(plansza, x, y):
     return 0 <= x < len(plansza) and 0 <= y < len(plansza[0])
 
 # Przykład:
-plansza = stworz_plansze(3, 4)
+plansza = [
+[0, 0, 0, 0],
+[0, 0, 0, 0],
+[0, 0, 0, 0]
+]
 print(czy_na_planszy(plansza, 1, 2))  # Wynik: True
 print(czy_na_planszy(plansza, 3, 2))  # Wynik: False
 ```
