@@ -100,24 +100,7 @@ print(wydaj_reszte_uproszczona(63, nominaly))  # Wynik: {25: 2, 10: 1, 1: 3}
 
 ## 3. Operacje na planszy
 
-### Zadanie 3.1: Inicjalizacja planszy
-Napisz funkcję, która inicjalizuje planszę o podanych wymiarach.
-
-```python
-def stworz_plansze(wysokosc, szerokosc, wartosc_domyslna=0):
-    return [[wartosc_domyslna for _ in range(szerokosc)] for _ in range(wysokosc)]
-
-# Przykład:
-plansza = stworz_plansze(3, 4)
-for wiersz in plansza:
-    print(wiersz)
-# Wynik:
-# [0, 0, 0, 0]
-# [0, 0, 0, 0]
-# [0, 0, 0, 0]
-```
-
-### Zadanie 3.2: Sprawdzenie granic planszy
+### Zadanie 3.1: Sprawdzenie granic planszy
 Napisz funkcję, która sprawdza, czy dane współrzędne znajdują się na planszy.
 
 ```python
@@ -125,12 +108,16 @@ def czy_na_planszy(plansza, x, y):
     return 0 <= x < len(plansza) and 0 <= y < len(plansza[0])
 
 # Przykład:
-plansza = stworz_plansze(3, 4)
+plansza = [
+[0, 0, 0, 0],
+[0, 0, 0, 0],
+[0, 0, 0, 0]
+]
 print(czy_na_planszy(plansza, 1, 2))  # Wynik: True
 print(czy_na_planszy(plansza, 3, 2))  # Wynik: False
 ```
 
-### Zadanie 3.3: Sprawdzenie sąsiadów
+### Zadanie 3.2: Sprawdzenie sąsiadów
 Napisz funkcję, która zwraca listę dozwolonych sąsiadów danego pola.
 
 ```python
@@ -235,13 +222,13 @@ for cyfra, ilosc in sorted(wynik.items()):
 
 1. **Operacje na plikach**:
    - Zawsze używaj konstrukcji `with open(...) as plik:` dla bezpiecznego otwarcia i zamknięcia pliku
-   - Pamiętaj o obsłudze błędów (np. FileNotFoundError)
-   - Używaj odpowiednich trybów (`'r'` dla odczytu, `'w'` dla zapisu)
+   - Pamiętaj o możliwości obsługi błędów poprzez `try:  except:` (np. FileNotFoundError)
+   - Używaj odpowiednich trybów (`'r'` dla odczytu, `'w'` dla zapisu gdzie `'r'` jest trybem domyślnym)
 
 2. **Operacje na stringach**:
    - Używaj slicingu (`tekst[start:stop:step]`) do pobierania części stringów
    - Pamiętaj o metodach `.isupper()`, `.islower()`, `.upper()`, `.lower()`
-   - Funkcja `sum()` z wyrażeniem generatorowym jest przydatna do zliczania znaków
+   - Funkcja `sum()` z wyrażeniem generatorowym jest przydatna do zliczania znaków (inne użyteczne to np `all()`)
 
 3. **Algorytm wydawania reszty**:
    - Sortuj nominały od największego do najmniejszego (`sorted(nominaly, reverse=True)`)
