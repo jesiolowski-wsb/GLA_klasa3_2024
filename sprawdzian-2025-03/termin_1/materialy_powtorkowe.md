@@ -248,4 +248,3 @@ for cyfra, ilosc in sorted(wynik.items()):
 6. **Sortowanie i manipulacja danymi**:
    - Używaj funkcji `sorted()` do sortowania bez modyfikacji oryginalnej listy
    - Znaj różnicę między `.sort()` (modyfikuje listę) a `sorted()` (zwraca nową listę)
-   - Pamiętaj o formie wykładniczej (`1e-10`) przy porównywaniu wartości zmiennoprzecinkowych
