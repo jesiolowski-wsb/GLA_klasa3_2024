@@ -106,16 +106,16 @@ Napisz funkcję, która sprawdza, czy dane współrzędne znajdują się na plan
 
 ```python
 def czy_na_planszy(plansza, x, y):
-    return 0 <= x < len(plansza) and 0 <= y < len(plansza[0])
+    return 0 <= y < len(plansza) and 0 <= x < len(plansza[0])
 
 # Przykład:
 plansza = [
-[0, 0, 0, 0],
-[0, 0, 0, 0],
-[0, 0, 0, 0]
+[0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0],
+[0, 0, 0, 0, 0]
 ]
-print(czy_na_planszy(plansza, 1, 2))  # Wynik: True
-print(czy_na_planszy(plansza, 3, 2))  # Wynik: False
+print(czy_na_planszy(plansza, 4, 2))  # Wynik: True
+print(czy_na_planszy(plansza, 1, 3))  # Wynik: False
 ```
 
 ### Zadanie 3.2: Sprawdzenie sąsiadów
