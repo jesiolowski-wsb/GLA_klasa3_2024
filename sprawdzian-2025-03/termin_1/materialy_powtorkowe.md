@@ -59,7 +59,8 @@ def ile_monet(kwota, nominal):
     return kwota // nominal, kwota % nominal
 
 # Przykład:
-ilosc, reszta = ile_monet(48, 10)
+nominal = 10
+ilosc, reszta = ile_monet(48, nominal)
 print(f"Potrzeba {ilosc} monet o nominale {nominal}, zostaje {reszta}")
 # Wynik: "Potrzeba 4 monet o nominale 10, zostaje 8"
 ```
