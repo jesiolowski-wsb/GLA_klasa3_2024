@@ -22,7 +22,7 @@ def co_n_ty_znak(tekst, n, start=0):
 
 # Przykład:
 print(co_n_ty_znak("abcdefghij", 2, 0))  # Wynik: "acegi"
-print(co_n_ty_znak("abcdefghij", 3, 2))  # Wynik: "cf"
+print(co_n_ty_znak("abcdefghij", 3, 2))  # Wynik: "cfi"
 ```
 
 ### Zadanie 1.3: Wczytywanie pliku i znajdowanie słowa
