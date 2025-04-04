@@ -34,8 +34,8 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 1 📌 | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                              |   Kasia                   |        4.04.2025👆               |             |
 | 📦 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                        |   Kuba                    |        15.11.2024                |             |
 | 📦 | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                        |   Witek                   |        22.11.2024                |             |
-| 📌 | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania   |   Lena                    |                                  |             |
-| 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |                                  |             |
+| 📌 | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania   |   Lena                    |         11.04                         |             |
+| 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |         25.04                         |             |
 | 📌 | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                                     |                           |                                  |             |
 | 📌 | bibioteka matplotlib na przykladzie drzewa binarnego                                                                         |  Michał                   |                                  |             |
 
