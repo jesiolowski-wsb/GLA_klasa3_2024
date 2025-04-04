@@ -22,8 +22,8 @@ with open('liczby (1).txt','r') as plik: #mam liczby(1) bo jest taki sam plik na
         wynik_hex={}
         for liczba in lista:
 
-
-with open('wyniki_liczby.txt','a+') as wyniki_liczby:
-    wyniki_liczby.write
+#nie zdazylam ladnie wszystkiego zrobic :((
+#with open('wyniki_liczby.txt','a+') as wyniki_liczby:
+#    wyniki_liczby.write
 
 
