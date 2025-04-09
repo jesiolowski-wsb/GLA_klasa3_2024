@@ -8,7 +8,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | **I. Algorytmy i programowanie** | ✓ | Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego: dekompozycja, rozpoznawanie wzorców, abstrakcja, projektowanie, ewaluacja) |
 | | | Stosowanie algorytmów na liczbach (badanie pierwszości: metoda naiwna i zoptymalizowana) |
 | | ✓ | Stosowanie algorytmów na liczbach (zamiana systemów liczbowych) |
-| | | Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
+| | ⏳ | Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
 | | ✓ | Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną) |
 | | | Algorytmy na tekstach (szyfrowanie np. cezara) |
 | | | Algorytmy sortowania (wstawianie, bąbelkowe) |
@@ -19,7 +19,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | ✓ | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
 | | | Praca z arkuszem kalkulacyjnym (funkcje, filtrowanie, wykresy) |
 | | | Praca z bazami danych (min. dwie tabele, relacje, kwerendy) |
-| **PODSUMOWANIE** | 14 elementów | 5 zrealizowanych (**35%**) |
+| **PODSUMOWANIE** | 14 elementów | 6 zrealizowanych (**43%**) |
 
 ## Zakres Rozszerzony
 
@@ -37,7 +37,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Stosowanie programowania strukturalnego i obiektowego |
 | | | Zaawansowane funkcje arkusza (makropolecenia) |
 | | | Projektowanie relacyjnych baz danych z SQL |
-| **III. Algorytmy rozszerzone** | | Algorytm Euklidesa (iteracyjnie i rekurencyjnie) |
+| **III. Algorytmy rozszerzone** |⏳  | Algorytm Euklidesa (iteracyjnie i rekurencyjnie) |
 | | | Znajdowanie elementów w zbiorze (lider, idol, wyszukiwanie binarne) |
 | | ✓ | Sito Eratostenesa |
 | | ✓ | Jednoczesne znajdowanie min/max |
@@ -49,6 +49,6 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Działania na punktach i odcinkach |
 | | | Fraktale rekurencyjne |
 | | | Kryptografia i podpis elektroniczny |
-| **PODSUMOWANIE** | 22 elementy | 7 zrealizowanych **(36%)** |
+| **PODSUMOWANIE** | 22 elementy | 8 zrealizowanych **(36%)** |
 
 _Uwaga: Tabela zawiera tylko elementy istotne z punktu widzenia matury. W kolumnie "Zrealizowane" symbol ✓ oznacza tematy już omówione na zajęciach._
