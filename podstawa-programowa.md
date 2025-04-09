@@ -13,7 +13,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Algorytmy na tekstach (szyfrowanie np. cezara) |
 | | | Algorytmy sortowania (wstawianie, bąbelkowe) |
 | | ✓ | Algorytm wydawania reszty |
-| | | Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
+| | ⏳ | Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
 | | | Wyróżnianie podproblemów (metoda połowienia, podejście zachłanne, rekurencja) |
 | | | Porównywanie algorytmów (złożoność obliczeniowa) |
 | | ✓ | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
