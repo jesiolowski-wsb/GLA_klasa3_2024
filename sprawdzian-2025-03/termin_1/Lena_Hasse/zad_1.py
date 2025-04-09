@@ -1,3 +1,12 @@
+# zdobyte punkty: 4/6
+
+# ✅ Poprawne otwarcie pliku wejściowego
+# ✅ Próba utworzenia tajnej wiadomości
+# ✅ Próba zapisu wyniku do pliku
+# ❌ Błąd w liczeniu wielkich liter - funkcja zwiększa licznik tylko raz na słowo, a nie dla każdej wielkiej litery
+# ❌ Format zwracanego wyniku nie jest zgodny z wymaganiami (brak informacji o liczbie wielkich liter)
+# ❌ Brak sprawdzenia czy słowo ma co najmniej 5 znaków przed pobraniem znaku o indeksie 4
+
 with open('tajny_przekaz.txt','r')as plik:
     tekst=plik.read()
     lista=tekst.split()
