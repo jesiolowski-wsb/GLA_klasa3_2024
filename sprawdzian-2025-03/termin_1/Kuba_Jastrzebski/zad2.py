@@ -1,3 +1,11 @@
+# zdobyte punkty: 2/5
+
+# ✅ Rozumienie koncepcji sortowania nominałów
+# ❌ Funkcja nie działa zgodnie z wymaganiami
+# ❌ Funkcja zwraca listę, a nie słownik
+# ❌ Brak sprawdzenia czy wydanie reszty jest możliwe
+# ❌ Logika algorytmu jest niepoprawna (warunek while i zagnieżdżone pętle)
+
 def wydaj_reszte(kwota, nominaly):
         output = []
         old_kwota = 0

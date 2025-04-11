@@ -1,3 +1,11 @@
+# zdobyte punkty: 4/6
+
+# ✅ Poprawna implementacja sprawdzania ruchu o jedno pole w pionie lub poziomie
+# ✅ Poprawne sprawdzenie granic planszy dla punktu docelowego
+# ❌ Brak sprawdzenia granic planszy dla punktu startowego
+# ❌ Brak sprawdzenia czy punkty startowy i docelowy to puste pola (wartość 0)
+# ❌ Użycie len(plansza) dla sprawdzenia granicy w obu wymiarach może nie działać dla plansz nie-kwadratowych
+
 plansza = [
     [0, 0, 1, 0, 0],
     [0, 0, 1, 0, 0],

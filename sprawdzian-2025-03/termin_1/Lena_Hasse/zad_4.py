@@ -1,3 +1,12 @@
+# zdobyte punkty; 2/5
+
+# ✅ Poprawne wczytanie pliku i konwersja do liczb całkowitych
+# ✅ Poprawne funkcje konwersji do binarnego i szesnastkowego
+# ✅ Częściowo poprawna implementacja obliczania średniej i mediany
+# ❌ Błąd w implementacji mediany - warunek if len(lista)%2!=0: jest zbędny i blokuje prawidłowe obliczenia
+# ❌ Brak implementacji zliczania cyfr
+# ❌ Niedokończona implementacja zapisu wyników do pliku
+
 with open('liczby (1).txt','r') as plik: #mam liczby(1) bo jest taki sam plik na komputerze i nie wiem co to nie chce komus czegos zepsuc
     tekst=plik.read()
     lista=tekst.split()
