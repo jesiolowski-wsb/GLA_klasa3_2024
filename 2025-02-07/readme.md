@@ -15,6 +15,7 @@ with open("../Dane_1805/sygnaly.txt") as file:
     zadanie4_2_maksimum = 0
     for line in file:
         line = line.rstrip()
+        # 4.1
         if licznik % 40 == 0:
             zadanie4_1 = zadanie4_1 + line[9]
         licznik += 1
