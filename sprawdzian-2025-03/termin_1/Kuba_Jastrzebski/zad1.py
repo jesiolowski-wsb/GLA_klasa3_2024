@@ -1,3 +1,11 @@
+# zdobyte punkty: 5.5/6
+
+# ✅ Poprawne wczytanie pliku
+# ✅ Poprawne znalezienie słowa z największą liczbą wielkich liter
+# ✅ Poprawne utworzenie tajnej wiadomości
+# ✅ Poprawne zapisanie wyników do pliku
+# ❌ Brak sprawdzenia czy słowo ma co najmniej 5 liter przed próbą pobrania 5. znaku
+
 with open("tajny_przekaz.txt", "r") as file:
     words = [i.strip() for i in file.readlines()]
 
@@ -14,7 +22,9 @@ for i in words:
 
 wiadomosc = ''
 for i in words[9::10]:
-    wiadomosc += i[4]
+    # dodalbym tu tego ifa
+    if len(i) >= 5:
+        wiadomosc += i[4]
 
 with open('wyniki1.txt', 'w') as file:
     file.write(f"Zadanie 1.1:\n{old_word} ({old_counter} wielkie litery)\n\n")
