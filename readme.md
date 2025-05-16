@@ -35,9 +35,9 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 📦 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                        |   Kuba                    |        15.11.2024                |             |
 | 📦 | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                        |   Witek                   |        22.11.2024                |             |
 | 📌 | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania   |   Lena                    |         11.04.2025              |  [canva](https://www.canva.com/design/DAGkQgX2fcs/goB2GX18n5G3mqbVbzgxJA/view?utm_content=DAGkQgX2fcs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hde8b604094)        |
-| 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |         25.04.2025  -> 16.05👆             |             |
+| 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |         25.04.2025  -> 16.05<br>👆             |             |
 | 📌 | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                            |                           |                                  |             |
-| 📌 | bibioteka matplotlib na przykladzie drzewa binarnego                                                                         |  Michał                   |       16.05👆                           |             |
+| 📌 | bibioteka matplotlib na przykladzie drzewa binarnego                                                                         |  Michał                   |       16.05<br>👆                           |             |
 
 
 
