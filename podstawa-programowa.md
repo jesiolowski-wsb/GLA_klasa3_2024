@@ -8,13 +8,13 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | **I. Algorytmy i programowanie** | ✓ | Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego: dekompozycja, rozpoznawanie wzorców, abstrakcja, projektowanie, ewaluacja) |
 | | | Stosowanie algorytmów na liczbach (badanie pierwszości: metoda naiwna i zoptymalizowana) |
 | | ✓ | Stosowanie algorytmów na liczbach (zamiana systemów liczbowych) |
-| | ⏳ | Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
+| | ✓ | Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
 | | ✓ | Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną) |
 | | | Algorytmy na tekstach (szyfrowanie np. cezara) |
 | | | Algorytmy sortowania (wstawianie, bąbelkowe) |
 | | ✓ | Algorytm wydawania reszty |
-| | ⏳ | Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
-| | | Wyróżnianie podproblemów (metoda połowienia, podejście zachłanne, rekurencja) |
+| | ✓ | Obliczanie elementów ciągu (iteracyjnie i rekurencyjnie, ciąg Fibonacciego) |
+| | ⏳ | Wyróżnianie podproblemów (metoda połowienia, podejście zachłanne, rekurencja) |
 | | | Porównywanie algorytmów (złożoność obliczeniowa) |
 | | ✓ | Projektowanie i programowanie rozwiązań (instrukcje wejścia/wyjścia, wyrażenia, pętle, funkcje) |
 | | | Praca z arkuszem kalkulacyjnym (funkcje, filtrowanie, wykresy) |
@@ -37,7 +37,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Stosowanie programowania strukturalnego i obiektowego |
 | | | Zaawansowane funkcje arkusza (makropolecenia) |
 | | | Projektowanie relacyjnych baz danych z SQL |
-| **III. Algorytmy rozszerzone** |⏳  | Algorytm Euklidesa (iteracyjnie i rekurencyjnie) |
+| **III. Algorytmy rozszerzone** | ✓ | Algorytm Euklidesa (iteracyjnie i rekurencyjnie) |
 | | | Znajdowanie elementów w zbiorze (lider, idol, wyszukiwanie binarne) |
 | | ✓ | Sito Eratostenesa |
 | | ✓ | Jednoczesne znajdowanie min/max |
