@@ -38,6 +38,8 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |         25.04.2025  -> 16.05<br>👆             |             |
 | 📌 | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                            |                           |                                  |             |
 | 📌 | bibioteka matplotlib na przykladzie drzewa binarnego                                                                         |  Michał                   |       16.05<br>👆                           |             |
+| 📌 | Kryptografia i podpis elektroniczny                                                                         |                     |                                  |             |
+
 
 
 
