@@ -16,6 +16,12 @@ tekst = "Python"
 print(my_len(tekst))  # Wypisze: 6
 ```
 
+```python
+# alternatywnie z uzyciem sum()
+def my_len_with_sum(kolekcja):
+    return sum(1 for _ in kolekcja)
+```
+
 ## 2. Napisz program który będzie dzielić stringi pisane PascalCasem lub camelCasem na takie, które zwrócą listę słów tj.
 
 ```python
