@@ -19,6 +19,7 @@ print(my_len(tekst))  # Wypisze: 6
 ## 2. Napisz program który będzie dzielić stringi pisane PascalCasem lub camelCasem na takie, które zwrócą listę słów tj.
 
 ```python
+print(split_by_capital(""))  # []
 print(split_by_capital("HelloWorld"))  # ['Hello', 'World']
 print(split_by_capital("getUserData"))  # ['get', 'User', 'Data']
 ```
