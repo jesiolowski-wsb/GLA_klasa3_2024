@@ -1,4 +1,4 @@
-## Napisz program który będzie realizować funkcję wbudowanej funkcji `len()` bez użycia tej funkcji:
+## 1. Napisz program który będzie realizować funkcję wbudowanej funkcji `len()` bez użycia tej funkcji:
 
 ### Rozwiązanie:
 ```python
@@ -16,7 +16,7 @@ tekst = "Python"
 print(my_len(tekst))  # Wypisze: 6
 ```
 
-## Napisz program który będzie dzielić stringi pisane PascalCasem lub camelCasem na takie, które zwrócą listę słów tj.
+## 2. Napisz program który będzie dzielić stringi pisane PascalCasem lub camelCasem na takie, które zwrócą listę słów tj.
 
 ```python
 print(split_by_capital("HelloWorld"))  # ['Hello', 'World']
@@ -26,7 +26,7 @@ print(split_by_capital("getUserData"))  # ['get', 'User', 'Data']
 ```python
 ```
 
-## Rozwiń program w taki sposób, aby pokrywał również warianty:
+## 3. Rozwiń program w taki sposób, aby pokrywał również warianty:
 ```python
 print(split_by_capital("PDFLoader"))  # ['PDF', 'Loader']
 print(split_by_capital("HTTPRequest")) # ['HTTP', 'Request']
