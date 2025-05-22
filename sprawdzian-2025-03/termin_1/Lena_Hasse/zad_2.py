@@ -1,3 +1,11 @@
+# zdobyte punkty: 4/5
+
+# ✅ Poprawne sortowanie nominałów malejąco
+# ✅ Poprawna implementacja głównej logiki algorytmu zachłannego
+# ✅ Poprawne użycie operatora dzielenia całkowitego (//) i modulo (%)
+# ❌ Błędna logika sprawdzania niemożności wydania reszty - funkcja zwraca komunikat już przy pierwszym nominale większym od kwoty
+# ❌ Format komunikatu o błędzie nie jest zgodny z wymaganiami
+
 def wydaj_reszte(kwota,nominaly):
     nominaly.sort()
     nominaly.reverse()

@@ -1,8 +1,19 @@
+
+# zdobyte punkty: 2/6
+# ✅ Poprawne otwarcie pliku
+# ✅ Poprawne stworzenie funkcji licz_wielkie_litery
+# ❌ Błąd w implementacji znajdowania słowa z największą liczbą wielkich liter - lista jest inicjowana wewnątrz pętli
+# ❌ Próba dostępu do 60 pierwszych linii bez sprawdzenia rzeczywistej długości pliku
+# ❌ Brak implementacji znajdowania tajnej wiadomości (tylko definicja funkcji pomocniczej)
+# ❌ Brak zapisu wyników do pliku
+
+# zad1
 def licz_wielkie_litery(tekst):
     return sum(1 for znak in tekst if znak.isupper())
 with open ("tajny_przekaz.txt","r") as tekst:
  slowa=tekst.readlines()
  for i in range (60):
+     # Inicjalizuj listę przed pętlą:
      lista=[]
      lista.append(licz_wielkie_litery(slowa[i]))
 print("najwieksza liczbe duzych liter ma:",list.index(max(lista)))
@@ -11,6 +22,14 @@ def licz_wielkie_litery(tekst):
         return sum(1 for znak in tekst if znak.isupper())
 def co_n_ty_znak(tekst, n, start=0):
         return tekst[start::n]
+
+# zdobyte punkty: 2/5
+# ✅ Próba implementacji algorytmu wydawania reszty
+# ✅ Używa słownika do przechowywania wyników
+# ❌ Funkcja nie przyjmuje listy nominałów jako parametru
+# ❌ Błąd w przypisaniu: monety[100]=+a zamiast monety[100]+=a lub monety[100]=a
+# ❌ Zbyt skomplikowana implementacja - wiele podobnych bloków kodu
+# ❌ Niepotrzebne pobieranie kwoty od użytkownika - w zadaniu podane są przykłady
 
 #zad2
 nominaly=(1,2,5,10,20,50,100)
@@ -47,6 +66,15 @@ def reszta(doreszty):
     monety[1]=+a
     return(monety)
 print(reszta(doreszty))
+
+# zdobyte punkty: 2/6
+# ✅ Próba implementacji sprawdzania ruchów na planszy
+# ✅ Sprawdzanie granic planszy
+# ❌ Błąd w nazwie zmiennej: plansz zamiast plansza w ostatnim warunku
+# ❌ Funkcja drukuje wyniki zamiast zwracać wartość logiczną
+# ❌ Funkcja nie przyjmuje punktu docelowego (cel_x, cel_y) jako parametrów
+# ❌ Implementacja nie spełnia wymagań zadania (sprawdzenie konkretnego ruchu)
+
 #zad3 pisze pozycje x jako y a y jako x bo to i tak nie ma znaczenia
 plansza = [
     [0, 0, 1, 0, 0],

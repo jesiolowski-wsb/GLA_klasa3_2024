@@ -1,3 +1,13 @@
+# zdobyte punkty: 5/5
+
+# ✅ Poprawne wczytanie pliku
+# ✅ Poprawna konwersja do systemów binarnego i szesnastkowego
+# ✅ Poprawne obliczenie średniej
+# ✅ Poprawne obliczenie mediany (sprytne użycie biblioteki statistics)
+# ✅ Poprawne liczenie wystąpień cyfr
+# ✅ Poprawny zapis do pliku
+
+# Korzystanie z gotowych funkcji jak median() jest mega fajnym pomysłem
 from statistics import median
 with open('liczby.txt', 'r') as file:
     liczby = [int(i.strip()) for i in file.readlines()]
