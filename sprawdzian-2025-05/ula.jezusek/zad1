@@ -1,4 +1,4 @@
-def sito_aratostenesa(n):
+def znajdz_pierwsze(n):
     sito = [True] * (n + 1)
     sito[0] = sito[1] = False
     for i in range(2, int(n**0.5) +1):
