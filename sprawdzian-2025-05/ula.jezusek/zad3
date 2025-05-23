@@ -1,0 +1,14 @@
+def fib_rekurencyjnie(n):
+    obliczone = {0: 0, 1: 1}
+
+    def fib_pamietajace(k):
+        if k in obliczone:
+            return juz_obliczone[k]
+
+        obliczone[k] = fib_pamietajace(k - 1) + fib_pamietajace(k - 2)
+        return obliczone[k]
+    wyniki = []
+    for i in range(n):
+        wyniki.append(fib_pamietajace(i))
+
+    return wyniki
