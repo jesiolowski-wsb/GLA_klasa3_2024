@@ -1,1 +1,44 @@
+zad 2 
+def nwd(a,b):
+    a,b= abs(a),abs(b)
+
+    while b!=0:
+      a,b=b,a%b
+    return a
+
+
+
+def nww(a,b):
+
+    if a==0 or b==0:
+        return 0
+
+    return abs(a*b/nwd(a,b))
+
+
+
+print(nwd(12, 18))  # 6
+print(nwd(35, 14))  # 7
+print(nwd(13, 7))   # 1
+
+print(nww(12, 18))  # 36
+print(nww(6, 8))    # 24
+print(nww(7, 13))   # 91
+
+zad 3
+iteracyjnie:
+n=int(input("podaj liczbe"))
+def fib_iteracyjnie(n):
+    if n<=0:
+        return[]
+    if n==1:
+        return[0]
+
+    wyniki =[0, 1]
+
+    for i in range(2,n):
+        wyniki.append(wyniki[i-1]+ wyniki[i-2])
+    return wyniki
+print(fib_iteracyjnie(n))
+rekurencyjnie
 
