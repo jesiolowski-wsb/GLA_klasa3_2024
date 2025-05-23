@@ -9,16 +9,10 @@ def fib_rek(n):
 
     tablica=[]
     for i in range(n):
-        tablica.append(fib_rek(i))
-        
+        tablica.append(fib_pamiec(i))
+
     return tablica
 
-def fib_rek_normalnie(n):
-    if n==0:
-        return 0
-    if n==1:
-        return 1
-    return fib_rek_normalnie(n-1)+fib_rek_normalnie(n-2)
 
 
 def fib_it(n):
@@ -33,4 +27,3 @@ def fib_it(n):
 
 print(fib_it(10))  # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 print(fib_rek(10))    # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-print(fib_rek_normalnie(10))
