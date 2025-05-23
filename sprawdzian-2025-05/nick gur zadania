@@ -1,0 +1,43 @@
+import math
+
+#fibonaczi
+n=int(input("podaj liczbe operacji"))
+def Ciag(n):
+        l=[0]
+        x, y = 0, 1
+        for i in range(n-1):
+            y += x
+            x = y - x
+            l.append(x)
+        return(l)
+
+print("liczba operacji",Ciag(n))
+#NWW
+def nww(a,b):
+    if a == 0 or b == 0:
+        return 0
+    return abs(a*b)//nwdrekurencyjne(a,b)
+
+#nwd
+a=int(input("podaj 1 liczbe"))
+b=int(input("podaj2 liczbe"))
+def nwditeracjyjne(a,b):
+    while a!=b:
+        if a>b:
+            a-=b
+        else:
+            b-=a
+        return a
+print(nwditeracjyjne(a,b))
+def nwdrekurencyjne(a,b):
+    if b>0:
+        return nwdrekurencyjne(b,a%b)
+    return a
+print(nwdrekurencyjne(a,b))
+#ulamki
+
+def skroculamek(a,b):
+    x= True
+    while x ==True:
+    a=a/nwdrekurencyjne(a,b)
+    b=b/nwdrekurencyjne(a,b)
