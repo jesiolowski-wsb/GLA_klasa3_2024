@@ -1,0 +1,5 @@
+def skroc_ulamek(licznik, mianownik):
+    dzielnik = nwd(licznik, mianownik)
+    nowy_licznik = licznik/dzielnik
+    nowy_mianownik= mianownik/dzielnik
+    return nowy_licznik, nowy_mianownik
