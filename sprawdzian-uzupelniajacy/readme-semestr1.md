@@ -1,4 +1,4 @@
-# Sprawdzian uzupełniający z podstaw programowania i podstaw obsługi plików 
+# Sprawdzian uzupełniający z podstaw programowania i podstaw obsługi plików - semestr 1
 **Maksymalna liczba punktów: 22**
 
 > [!NOTE]
