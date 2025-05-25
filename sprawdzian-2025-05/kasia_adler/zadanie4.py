@@ -1,3 +1,7 @@
+# zdobyte punkty: 4/5
+# ❌ Błąd na poziomie rozumienia: wspólny_dzielnik = nww(m1,m2) - NWW mianowników to wspólny mianownik, nie dzielnik!
+# ✅ Algorytmy są merytorycznie poprawne: normalizacja znaku, użycie NWD do skracania, dodawanie przez wspólny mianownik
+
 def nwd(a,b):
     while b!= 0:
         c = a%b
