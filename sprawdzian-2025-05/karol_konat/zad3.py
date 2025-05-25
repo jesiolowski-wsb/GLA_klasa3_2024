@@ -1,3 +1,8 @@
+# zdobyte punkty 5/6
+# ✅ Wersja iteracyjna działa poprawnie i jest wydajna
+# ❌ "Rekurencyjna" wersja nie jest prawdziwie rekurencyjna - to iteracja z funkcją pomocniczą
+# ⚠️ Brak obsługi przypadku n=1 w wersji iteracyjnej (IndexError)
+
 def __fib_rec(n, tbl):
 	tbl_len = len(tbl)
 	if tbl_len == n:
