@@ -6,7 +6,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | Temat | Zrealizowane | Wymagania szczegółowe |
 |-------|:------------:|----------------------|
 | **I. Algorytmy i programowanie** | ✓ | Planowanie kolejnych kroków rozwiązywania problemu (etapy myślenia komputacyjnego: dekompozycja, rozpoznawanie wzorców, abstrakcja, projektowanie, ewaluacja) |
-| | | Stosowanie algorytmów na liczbach (badanie pierwszości: metoda naiwna i zoptymalizowana) |
+| | ⏳ | Stosowanie algorytmów na liczbach (badanie pierwszości: metoda naiwna i zoptymalizowana) |
 | | ✓ | Stosowanie algorytmów na liczbach (zamiana systemów liczbowych) |
 | | ✓ | Stosowanie algorytmów na liczbach (działania na ułamkach z NWD i NWW - algorytm Euklidesa) |
 | | ✓ | Algorytmy na tekstach (porównywanie, wyszukiwanie wzorca metodą naiwną) |
