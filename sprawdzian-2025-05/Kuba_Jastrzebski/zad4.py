@@ -1,3 +1,8 @@
+# zdobyte punkty: 4/5
+# ✅ Kreatywne rozwiązanie normalizacji znaku: if licznik * mianownik > 0 sprawdza czy znaki są zgodne
+# ❌ Nieefektywność: nwd(licznik, mianownik) wywoływane dwukrotnie w skroc_ulamek, nww(m1, m2) aż 4 razy w dodawaniu
+# ❌ Te same błędy w NWD/NWW co w zadaniu 2
+
 def nwd(a:int,b:int):
     if a < 1 and b < 1: return 0
     if a > 0 and b < 1: return a

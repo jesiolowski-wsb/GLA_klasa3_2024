@@ -1,4 +1,4 @@
-zad 2 
+# zad 2
 def nwd(a,b):
     a,b= abs(a),abs(b)
 
@@ -25,8 +25,8 @@ print(nww(12, 18))  # 36
 print(nww(6, 8))    # 24
 print(nww(7, 13))   # 91
 
-zad 3
-----------------------------------iteracyjnie---------------------------------------------------
+# zad 3
+# ----------------------------------iteracyjnie---------------------------------------------------
 n=int(input("podaj liczbe"))
 def fib_iteracyjnie(n):
     if n<=0:
@@ -40,7 +40,7 @@ def fib_iteracyjnie(n):
         wyniki.append(wyniki[i-1]+ wyniki[i-2])
     return wyniki
 print(fib_iteracyjnie(n))
------------------------------REKURENCYJNIE ------------------------------------------------------------
+# -----------------------------REKURENCYJNIE ------------------------------------------------------------
 def fib_rekurencyjnie(n):
     juz_obliczone = {0:0, 1:1}
 
