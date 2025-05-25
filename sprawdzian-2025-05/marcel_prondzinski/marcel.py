@@ -1,3 +1,8 @@
+# zdobyte punkty: 4/5
+# ✅ Doskonała iteracyjna implementacja NWD: while b!=0: a,b=b,a%b z prawidłową obsługą abs()
+# ❌ Błąd w NWW: return abs(a*b/nwd(a,b)) zwraca float - powinno być // dla dzielenia całkowitego
+# ✅ Poprawna obsługa przypadków brzegowych: if a==0 or b==0: return 0
+
 # zad 2
 def nwd(a,b):
     a,b= abs(a),abs(b)
@@ -25,6 +30,10 @@ print(nww(12, 18))  # 36
 print(nww(6, 8))    # 24
 print(nww(7, 13))   # 91
 
+#zdobyte punkty: 6/6
+# ✅ Wzorcowa implementacja rekurencyjna z memoizacją: juz_obliczone = {0:0, 1:1} i funkcja pomocnicza
+# ✅ Doskonała wersja iteracyjna z prawidłową obsługą przypadków brzegowych if n<=0 i if n==1
+# ✅ Oba rozwiązania są bezbłędne i zgodne ze specyfikacją - pełna punktacja
 # zad 3
 # ----------------------------------iteracyjnie---------------------------------------------------
 n=int(input("podaj liczbe"))
