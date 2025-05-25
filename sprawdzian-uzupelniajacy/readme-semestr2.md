@@ -3,7 +3,7 @@
 
 Test sprawdzający wiedzę z dziedziny podstawy programowej w wersji podstawowej.
 
-Rozwiązania wklej na githuba w formie `nazwisko_imie.py` w bieżącym folderze (tj. w tym o nazwie `sprawdzian-uzupelniajacy`)
+Rozwiązania poproszę w formie `nazwisko_imie.py` w bieżącym folderze (tj. w tym o nazwie `sprawdzian-uzupelniajacy`)
 
 
 ---
@@ -90,10 +90,6 @@ Napisz kompletny program, który:
 2. Posortuje je rosnąco
 3. Sprawdzi, które z nich są liczbami pierwszymi
 4. Wyświetli wyniki w czytelnej formie
-
-```python
-# Twój kompletny program tutaj
-```
 
 ---
 
