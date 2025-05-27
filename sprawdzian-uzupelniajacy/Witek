@@ -35,7 +35,28 @@ print(fib_iteracyjnie(6))
 
 zad4
 
+def wydaj_reszte(kwota, nominaly):
+    nominaly.sort(reverse=True)
+    wydane_monety = {}
 
+    for nominal in nominaly:
+        ilosc = kwota // nominal
+
+        if ilosc > 0:
+            wydane_monety[nominal] = ilosc
+            kwota -= nominal * ilosc
+
+    return wydane_monety
+
+
+# Przykład użycia
+nominaly = [1, 2, 5, 10, 20, 50, 100, 200, 500]
+kwota = 237
+wynik = wydaj_reszte(kwota, nominaly)
+
+print(f"Reszta {kwota} zł:")
+for nominal, ilosc in wynik.items():
+    print(f"{ilosc} x {nominal} zł")
 
 
 
