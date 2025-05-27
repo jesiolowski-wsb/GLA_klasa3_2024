@@ -10,6 +10,16 @@ def czy_pierwsza(n):
     return n
 uproszczone sito :)
 
+def dziesietny_na_binarny_manualnie(liczba):
+    wynik = ''
+    while liczba > 0:
+        wynik = str(liczba % 2) + wynik
+        liczba //= 2
+    return wynik
+
+# Przykład
+liczba = 25
+print(dziesietny_na_binarny_manualnie(liczba))
 
 
 
