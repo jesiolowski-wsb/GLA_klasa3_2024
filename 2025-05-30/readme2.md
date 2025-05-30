@@ -1,4 +1,9 @@
+# Programowanie strukturalne i obiektowe
+---
+
 ## Strukturalnie vs Obiektowo + Podstawy klas
+
+### Wprowadzenie
 
 2 główne **paradygmaty** (sposoby myślenia o kodzie). Dwa najważniejsze to:
 - **Programowanie strukturalne** - organizuje kod wokół funkcji
