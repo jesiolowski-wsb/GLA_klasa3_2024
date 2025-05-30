@@ -1,3 +1,8 @@
+# zdobyte punkty: 3.5/5
+# ❌ Poważny błąd w skroc_ulamek: (licznik//dzielnik)//znak zamiast (licznik//dzielnik)*znak
+# ❌ Błędna logika w dodaj_ulamki - sprawdza liczniki zamiast mianowników, nie używa NWW poprawnie
+# ❌ Niepoprawne parametry w odejmij_ulamki - kolejność argumentów jest błędna
+
 def nwd_it(a,b):
     a,b=abs(a), abs(b)
     while b:

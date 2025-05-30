@@ -1,3 +1,6 @@
+# zdobyte punkty: 4/5
+# ❌ Błąd w skroc_ulamek: dzielenie przez float licznik/dzielnik zamiast int licznik//dzielnik
+# ✅ Algorytmy są konceptualnie poprawne: normalizacja znaku, użycie NWW do wspólnego mianownika
 def skroc_ulamek(licznik, mianownik):
     if mianownik ==0:
         raise ValueError("nie można dzielić przez zero")

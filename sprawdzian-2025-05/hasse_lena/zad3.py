@@ -1,3 +1,8 @@
+# zdobyte punkty: 4.5/6
+# ✅ Doskonała implementacja rekurencyjna z pamięcią
+# ❌ Wersja iteracyjna zwraca 1 zamiast [0] dla n=1 - powinno być return [0]
+# ⚠️ Brak obsługi przypadku n=0 w wersji iteracyjnej
+
 def fib_rek(n):
     obliczone = {0: 0, 1: 1}
     def fib_pamiec(k):

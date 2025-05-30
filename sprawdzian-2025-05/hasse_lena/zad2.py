@@ -1,3 +1,8 @@
+# zdobyte punkty: 4/5
+# ✅ Rekurencyjna implementacja NWD jest poprawna
+# ❌ Brak obsługi wartości bezwzględnych w funkcji nwd - może dawać błędne wyniki dla liczb ujemnych
+# ⚠️ nadmiarowe abs() w NWW - liczby są już dodatnie po pierwszym abs()
+
 def nwd(a,b):
     if b==0:
         return a

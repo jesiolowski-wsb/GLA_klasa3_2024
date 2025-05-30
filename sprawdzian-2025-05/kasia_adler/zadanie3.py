@@ -1,3 +1,7 @@
+# zdobyte punkty: 6/6
+# ✅ Wzorcowa implementacja rekurencyjna z memoizacją: juz_obliczone = {0:0, 1:1} i sprawdzaniem if k in juz_obliczone
+# ✅ Doskonała wersja iteracyjna z prawidłową obsługą: if n <= 0: return [] i if n == 1: return [0]
+# ✅ Oba rozwiązania są eleganckie, wydajne i bezbłędne - dokładnie jak wzorcowe rozwiązanie
 def fib_rekurencyjnie(n):
     juz_obliczone = {0:0, 1:1}
 

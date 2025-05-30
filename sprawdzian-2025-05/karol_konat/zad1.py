@@ -1,3 +1,7 @@
+# zdobyte punkty 6/6
+# ✅ Algorytm działa poprawnie i zwraca prawidłowe wyniki
+# 💡 Dobra optymalizacja z sqrt(n) i elegancka list comprehension na końcu
+
 from math import sqrt
 
 def znajdz_pierwsze(n):

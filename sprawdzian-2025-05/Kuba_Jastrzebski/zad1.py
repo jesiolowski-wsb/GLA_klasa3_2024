@@ -1,3 +1,7 @@
+# zdobyte punkty: 6/6
+# ✅ Algorytm jest poprawny i elegancko napisany z enumerate w list comprehension
+# ⚠️ Niepotrzebny import floor - int(sqrt(n)) wystarczy, ale kod działa poprawnie
+
 from math import sqrt, floor
 
 def znajdz_pierwsze(n):

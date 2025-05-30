@@ -1,3 +1,8 @@
+# zdobyte punkty: 5/6
+# ✅ Podstawowa struktura algorytmu poprawna i działa
+# ❌ Błędna granica głównej pętli: int(n*0.5)+1 zamiast int(n**0.5)+1 (połowa zamiast pierwiastka!)
+# ❌ Błędny zakres: range(i*i,n,i) powinno być range(i*i,n+1,i) - nie sprawdza liczby n
+
 def znajdz_pierwsze(n):
     tablica=[True for i in range(n+1)]
     tablica[0]=tablica[1]=False

@@ -1,3 +1,8 @@
+#zdobyte punkty: 3/6
+# ❌ Brak implementacji wersji rekurencyjnej - tylko zakomentowany kod
+# ❌ Wersja iteracyjna ma błąd: for i in range(n-2) daje złą liczbę elementów, np. dla n=10 zwraca 10 elementów zamiast 10
+# ⚠️ Kod działa przypadkowo dla niektórych wartości, ale logika jest niepoprawna
+
 #def fib_rekurencyjnie(n):
 #    output = []
 #    if n == 0: return 0

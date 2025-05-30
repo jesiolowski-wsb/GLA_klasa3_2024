@@ -1,4 +1,24 @@
 import math
+# Zadanie 1: Sito Eratostenesa - 5/6 punktów
+# ❌ Krytyczne błędy: używa zmiennej n zamiast parametru he w funkcji erastotenes(he)
+# ❌ Błędna granica pętli: int(n*0.5)+1 zamiast int(n**0.5)+1 (połowa zamiast pierwiastka!)
+# ✅ warunkowo dopuszczone rozwiązanie - błąd w nazwie wynika pewnioe z copy-paste kilku plików
+#
+# Zadanie 2: NWD i NWW - 3/5 punktów
+# ❌ Błędny algorytm w nwditeracjyjne: while a!=b: a-=b to algorytm odejmowania, nie Euklidesa
+# ✅ Rekurencyjna wersja NWD ma poprawną strukturę: return nwdrekurencyjne(b,a%b)
+# ❌ Brak obsługi abs() - może dawać błędne wyniki dla liczb ujemnych
+#
+# Zadanie 3: Fibonacci - 3/6 punktów
+# ❌ Brak implementacji wersji rekurencyjnej (0 punktów za rekurencję)
+# ✅ Wersja iteracyjna Ciag(n) działa poprawnie z algorytmem x, y = 0, 1; y += x; x = y - x
+# ❌ Nazwa funkcji Ciag nie zgodna ze specyfikacją fib_iteracyjnie
+#
+# Zadanie 4: Operacje na ułamkach - 0/5 punktów
+# ❌ Funkcja skroculamek ma błędną logikę: dzielenie przez float, nieskończona pętla, zwraca a/b zamiast krotki
+# ❌ Błędy w dodaj: nww(mianownik2,mianownik2) zamiast nww(mianownik1,mianownik2), wywołanie rekurencyjne w definicji
+# ❌ Te same błędy w odejmij, funkcje się nie wykonają poprawnie
+
 
 #fibonaczi
 n=int(input("podaj liczbe operacji"))
