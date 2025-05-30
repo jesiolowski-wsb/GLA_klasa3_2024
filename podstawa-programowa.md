@@ -34,7 +34,7 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Rozumienie źródeł błędów obliczeniowych |
 | | ✓ | Znajomość metod myślenia komputacyjnego (dekompozycja, abstrakcja, rozpoznawanie wzorców) |
 | **II. Programowanie zaawansowane** | | Tworzenie rozbudowanych programów ze strukturami dynamicznymi |
-| | | Stosowanie programowania strukturalnego i obiektowego |
+| | ✓ | Stosowanie programowania strukturalnego i obiektowego |
 | | | Zaawansowane funkcje arkusza (makropolecenia) |
 | | | Projektowanie relacyjnych baz danych z SQL |
 | **III. Algorytmy rozszerzone** | ✓ | Algorytm Euklidesa (iteracyjnie i rekurencyjnie) |
@@ -49,6 +49,6 @@ bazując na https://podstawaprogramowa.pl/Liceum-technikum/Informatyka - usunię
 | | | Działania na punktach i odcinkach |
 | | | Fraktale rekurencyjne |
 | | | Kryptografia i podpis elektroniczny |
-| **PODSUMOWANIE** | 22 elementy | 9 zrealizowanych **(41%)** |
+| **PODSUMOWANIE** | 22 elementy | 10 zrealizowanych **(45%)** |
 
 _Uwaga: Tabela zawiera tylko elementy istotne z punktu widzenia matury. W kolumnie "Zrealizowane" symbol ✓ oznacza tematy już omówione na zajęciach._
