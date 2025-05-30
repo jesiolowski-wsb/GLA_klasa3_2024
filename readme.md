@@ -32,13 +32,13 @@ i tak, najpierw **NAZWISKO**, dopiero potem imię :)
 | 📦 | bramki logiczne                                                                                                              |   Karol                   |        8.11.2024                 |             |
 | 📦 | generowanie liczb pierwszych metodą sita Eratostenesa                                                                        |   Kuba                    |        15.11.2024                |             |
 | 📦 | wyznaczanie miejsc zerowych funkcji metodą połowienia                                                                        |   Witek                   |        22.11.2024                |             |
-| 📌 | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                      |   Kuba                    |        23.05.2025<br>👆          |             |
+| 📌 | złożoność obliczeniowa algorytmów (notacja O-wielkości)                                                                      |   Kuba                    |        23.05.2025                |             |
 | 📌 | algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz z zastosowaniami                                                |   Kasia                   |        4.04.2025                 |   [powerpoint](https://github.com/jesiolowski-wsb/GLA_klasa3_2024/blob/main/prezentacje/euklides.pptx)          |
 | 📌 | znajdowanie określonego elementu w zbiorze: lidera, idola, elementu w zbiorze uporządkowanym metodą binarnego wyszukiwania   |   Lena                    |        11.04.2025                |  [canva](https://www.canva.com/design/DAGkQgX2fcs/goB2GX18n5G3mqbVbzgxJA/view?utm_content=DAGkQgX2fcs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hde8b604094)        |
-| 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |         25.04.2025  -> 16.05.2025             |             |
+| 📌 | obliczanie wartości wielomianu za pomocą schematu Hornera                                                                    |   Ula                     |       25.04.2025 -> 16.05.2025   |             |
 | 📌 | rekurencyjne tworzenia fraktali: zbiór Cantora, drzewo binarne, dywan Sierpińskiego, płatek Kocha                            |                           |                                  |             |
-| 📌 | bibioteka matplotlib na przykladzie drzewa binarnego                                                                         |  Michał                   |       16.05.2025 -> 23.05.2025<br>👆                           |             |
-| 📌 | Kryptografia i podpis elektroniczny                                                                                          |  Kacper                   |       13.06.2025                 |             |
+| 📌 | bibioteka matplotlib na przykladzie drzewa binarnego                                                                         |  Michał                   |       16.05.2025 -> 23.05.2025   |             |
+| 📌 | Kryptografia i podpis elektroniczny                                                                                          |  Kacper                   |       13.06.2025<br>👆           |             |
 
 
 
