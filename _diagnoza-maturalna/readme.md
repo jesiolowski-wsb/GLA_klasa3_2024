@@ -2,7 +2,7 @@
 - **akcja-sprawdzajaca-2025.pdf** - arkusz z pytaniami
 - **akcja-sprawdzajaca-2025-odpowiedzi.pdf** - odpowiedzi do pytań i kreteria oceniania
 - pliki ***.txt** - pliki źródłowe do pytań dot. napisania kodu
-- pliki ***.zip** - pliki z odpowiedziami konkretnych uczniów
+- pliki **diagnoza-*.zip** - pliki z odpowiedziami konkretnych uczniów
 
 ## Rozkład pytań w kontekście 'podstawy programowej'
 
