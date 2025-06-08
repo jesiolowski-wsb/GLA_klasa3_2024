@@ -19,8 +19,8 @@
 | **2.1** | Złożoność obliczeniowa algorytmu | 🔴 **Rozszerzony** | 1 | Analiza złożoności  |
 | **2.2** | Dodawanie w systemie czwórkowym | 🟢 **Podstawowy** | 1 | Działania w różnych systemach liczbowych |
 | **2.3** | Zapytania SQL do bazy danych | 🟢 **Podstawowy** | 1 | Praca z bazami danych  |
-| **3.1** | Fragmenty 2-cyfrowe większe od 90 | 🔴 **Rozszerzony** | 2 | Programowanie z plikami, złożone przetwarzanie |
-| **3.2** | Min/max wystąpienia fragmentów | 🔴 **Rozszerzony** | 3 | Zaawansowane algorytmy zliczania |
+| **3.1** | Fragmenty 2-cyfrowe większe od 90 | 🔴 **Rozszerzony** | 2 | Praca z plikami, złożone przetwarzanie |
+| **3.2** | Min/max wystąpienia fragmentów | 🔴 **Rozszerzony** | 3 | Zaawansowane algorytmy |
 | **3.3** | Ciągi rosnąco-malejące (6 cyfr) | 🔴 **Rozszerzony** | 3 | Złożone wzorce w danych |
 | **3.4** | Najdłuższy ciąg rosnąco-malejący | 🔴 **Rozszerzony** | 2 | Zaawansowane algorytmy wyszukiwania wzorców |
 | **4** | Test obiektowości | 🔴 **Rozszerzony** | 1 | Programowanie obiektowe  |
