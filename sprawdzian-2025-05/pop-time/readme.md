@@ -1,4 +1,4 @@
-# POP-time Sprawdzianu z podstawowych algorytmów w Pythonie (tak, naprawdę :) )
+# POP-time Sprawdzianu z podstawowych algorytmów w Pythonie (2025-06-09)
 **Czas: 60 minut**  
 **Maksymalna liczba punktów: 22**
 
