@@ -1,1 +1,105 @@
+ZADANIE 1
 
+a)
+def sprawdz_pierwszosc(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+b)
+def dec_na_bin(liczba):
+    if liczba == 0:
+        return "0"
+    liczba_binarna = ""
+    while liczba > 0:
+        reszta = liczba % 2
+        liczba_binarna = str(reszta) + liczba_binarna
+        liczba = liczba // 2
+    return liczba_binarna
+
+
+ZADANIE 2
+
+a)
+def szyfr_cezara(tekst, przesuniecie):
+    male = "abcdefghijklmnopqrstuvwxyz"
+    duze = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    szyfr = ""
+
+    for znak in tekst:
+        if znak in male:
+            index = male.index(znak)
+            nowy_index = (index + przesuniecie) % 26
+            szyfr += male[nowy_index]
+        elif znak in duze:
+            index = duze.index(znak)
+            nowy_index = (index + przesuniecie) % 26
+            szyfr += duze[nowy_index]
+        else:
+            szyfr += znak
+
+    return szyfr
+
+b)
+def znajdz_wzorzec(tekst, wzorzec):
+    n = len(tekst)
+    m = len(wzorzec)
+
+    for i in range(n - m + 1):
+        dopasowanie = True
+        for j in range(m):
+            if tekst[i + j] != wzorzec[j]:
+                dopasowanie = False
+                break
+        if dopasowanie:
+            return i
+
+
+ZADANIE 3
+
+def fibonnaci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonnaci(n-1) + fibonnaci(n-2)
+
+
+ZADANIE 4
+
+def wydaj_reszte(kwota_reszty):
+    nominaly = [200, 100, 50, 20, 10, 5, 2, 1]
+    lista=[]
+    for n in nominaly:
+        if kwota_reszty >= n:
+            liczba_monet = kwota_reszty // n
+            kwota_reszty -= liczba_monet * n
+            lista.append(str(liczba_monet) + " razy " + str(n))
+    return lista
+
+
+ZADANIE 5
+
+def sprawdz_pierwszosc(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+liczby = input("podaj liste liczb oddzielonych spacjami ")
+lista=[]
+for i in liczby.split( ):
+    lista.append(int(i))
+lista = sorted(lista)
+print("liczby posortowane rosnaco", lista)
+n= []
+for i in lista:
+    if sprawdz_pierwszosc(i):
+        n.append(i)
+print("liczby pierwsze", n)
