@@ -17,23 +17,12 @@ def dec_na_bin(liczba):
         liczba //= 2
     return binarna
 zad 2 
-a)
-def szyfr_cezara(tekst, przesuniecie):
-    wynik = ""
-    for znak in tekst:
-        if znak.isalpha():
-            start = ord('A') if znak.isupper() else ord('a')
-            przesuniety = (ord(znak) - start + przesuniecie) % 26 + start
-            wynik += chr(przesuniety)
-        else:
-            wynik += znak  
-    return wynik
-b)
-def znajdz_wzorzec(tekst, wzorzec):
-    n = len(tekst)
-    m = len(wzorzec)
-    for i in range(n - m + 1):
-        if tekst[i:i + m] == wzorzec:
-            return i
-    return -1
+
 zad 3 
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
