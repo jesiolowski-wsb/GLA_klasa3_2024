@@ -9,6 +9,9 @@ def sprawdz_pierwszosc(n):
             return False
     return True
 
+#przyklad:
+print(sprawdz_pierwszosc(27281))
+
 b)
 def dec_na_bin(liczba):
     if liczba == 0:
@@ -19,6 +22,9 @@ def dec_na_bin(liczba):
         liczba_binarna = str(reszta) + liczba_binarna
         liczba = liczba // 2
     return liczba_binarna
+
+#przyklad:
+print(dec_na_bin(1938))
 
 
 ZADANIE 2
@@ -43,6 +49,9 @@ def szyfr_cezara(tekst, przesuniecie):
 
     return szyfr
 
+#przyklad:
+print(szyfr_cezara(glupiaangina, 5))
+
 b)
 def znajdz_wzorzec(tekst, wzorzec):
     n = len(tekst)
@@ -57,6 +66,9 @@ def znajdz_wzorzec(tekst, wzorzec):
         if dopasowanie:
             return i
 
+#przyklad:
+print(znajdz_wzorzec(kajak, jak))
+
 
 ZADANIE 3
 
@@ -67,6 +79,9 @@ def fibonnaci(n):
         return 1
     else:
         return fibonnaci(n-1) + fibonnaci(n-2)
+
+#przyklad:
+print(fibonnaci(8))
 
 
 ZADANIE 4
@@ -80,6 +95,9 @@ def wydaj_reszte(kwota_reszty):
             kwota_reszty -= liczba_monet * n
             lista.append(str(liczba_monet) + " razy " + str(n))
     return lista
+
+#przyklad:
+print(wydaj_reszte(580))
 
 
 ZADANIE 5
