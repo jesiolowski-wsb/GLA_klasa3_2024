@@ -26,3 +26,19 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
+zad 4 
+def wydaj_reszte(kwota_reszty):
+    nominały = [200, 100, 50, 20, 10, 5, 2, 1]
+    wynik = {}
+    
+    for nominał in nominały:
+        liczba = kwota_reszty // nominał
+        if liczba > 0:
+            wynik[nominał] = liczba
+            kwota_reszty %= nominał
+            
+    return wynik
+przykład użycia:
+print(wydaj_reszte(287))
+Wynik
+{200: 1, 50: 1, 20: 1, 10: 1, 5: 1, 2: 1}
